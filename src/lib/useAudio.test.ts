@@ -3,10 +3,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { renderHook, act } from "@testing-library/react";
 import { useAudio } from "./useAudio";
 
+// Mutable variable to control voice URI per test
+let mockAudioVoiceURI: string | null = null;
+
 // Mock the Zustand store selector
 vi.mock("@/lib/store", () => ({
   useAppStore: vi.fn((selector: (s: { settings: { audioRate: number; audioVoiceURI: string | null } }) => unknown) =>
-    selector({ settings: { audioRate: 0.9, audioVoiceURI: null } }),
+    selector({ settings: { audioRate: 0.9, audioVoiceURI: mockAudioVoiceURI } }),
   ),
 }));
 
@@ -31,8 +34,10 @@ const mockSpeak = vi.fn();
 const mockGetVoices = vi.fn(() => []);
 
 beforeEach(() => {
+  mockAudioVoiceURI = null;
   mockCancel.mockClear();
   mockSpeak.mockClear();
+  mockGetVoices.mockClear();
   Object.defineProperty(window, "speechSynthesis", {
     value: { cancel: mockCancel, speak: mockSpeak, getVoices: mockGetVoices },
     writable: true,
@@ -62,5 +67,17 @@ describe("useAudio", () => {
     const { unmount } = renderHook(() => useAudio());
     unmount();
     expect(mockCancel).toHaveBeenCalledTimes(1);
+  });
+
+  it("selects the matching voice when audioVoiceURI is set", () => {
+    const fakeVoice = { voiceURI: "de-voice", name: "German Voice", lang: "de-DE" } as SpeechSynthesisVoice;
+    mockGetVoices.mockReturnValueOnce([fakeVoice]);
+    mockAudioVoiceURI = "de-voice";
+
+    const { result } = renderHook(() => useAudio());
+    act(() => { result.current.speak("Hallo"); });
+
+    const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
+    expect(utterance.voice).toBe(fakeVoice);
   });
 });
