@@ -123,7 +123,13 @@ export const useAppStore = create<AppStore>()(
       },
 
       setSettings: (partial: Partial<UserSettings>) => {
-        set({ settings: { ...get().settings, ...partial } });
+        const sanitized = { ...partial };
+        if (sanitized.audioRate !== undefined) {
+          sanitized.audioRate = Number.isFinite(sanitized.audioRate)
+            ? Math.min(Math.max(sanitized.audioRate, 0.1), 10)
+            : defaultSettings.audioRate;
+        }
+        set({ settings: { ...get().settings, ...sanitized } });
       },
 
       importState: (data: Partial<AppState>) => {
@@ -150,6 +156,17 @@ export const useAppStore = create<AppStore>()(
     }),
     {
       name: "german-tutor-storage",
+      version: 1,
+      migrate: (persisted: unknown, version: number) => {
+        const state = persisted as AppState;
+        if (version === 0 || !Number.isFinite(state?.settings?.audioRate)) {
+          return {
+            ...state,
+            settings: { ...defaultSettings, ...state?.settings, audioRate: 0.9 },
+          };
+        }
+        return state;
+      },
       partialize: (state) => ({
         vocabProgress: state.vocabProgress,
         grammarProgress: state.grammarProgress,

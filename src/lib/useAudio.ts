@@ -10,7 +10,8 @@ export function useAudio() {
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "de-DE";
-      utterance.rate = audioRate;
+      const safeRate = Number.isFinite(audioRate) ? Math.min(Math.max(audioRate, 0.1), 10) : 0.9;
+      utterance.rate = safeRate;
       if (audioVoiceURI) {
         const voice = window.speechSynthesis
           .getVoices()

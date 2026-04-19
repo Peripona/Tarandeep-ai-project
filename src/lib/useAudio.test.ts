@@ -3,13 +3,12 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { renderHook, act } from "@testing-library/react";
 import { useAudio } from "./useAudio";
 
-// Mutable variable to control voice URI per test
+let mockAudioRate: number | undefined = 0.9;
 let mockAudioVoiceURI: string | null = null;
 
-// Mock the Zustand store selector
 vi.mock("@/lib/store", () => ({
-  useAppStore: vi.fn((selector: (s: { settings: { audioRate: number; audioVoiceURI: string | null } }) => unknown) =>
-    selector({ settings: { audioRate: 0.9, audioVoiceURI: mockAudioVoiceURI } }),
+  useAppStore: vi.fn((selector: (s: { settings: { audioRate: number | undefined; audioVoiceURI: string | null } }) => unknown) =>
+    selector({ settings: { audioRate: mockAudioRate as number, audioVoiceURI: mockAudioVoiceURI } }),
   ),
 }));
 
@@ -34,6 +33,7 @@ const mockSpeak = vi.fn();
 const mockGetVoices = vi.fn((): SpeechSynthesisVoice[] => []);
 
 beforeEach(() => {
+  mockAudioRate = 0.9;
   mockAudioVoiceURI = null;
   mockCancel.mockClear();
   mockSpeak.mockClear();
@@ -79,5 +79,45 @@ describe("useAudio", () => {
 
     const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
     expect(utterance.voice).toBe(fakeVoice);
+  });
+
+  it("falls back to 0.9 when audioRate is NaN", () => {
+    mockAudioRate = NaN;
+    const { result } = renderHook(() => useAudio());
+    act(() => { result.current.speak("Hallo"); });
+    const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
+    expect(utterance.rate).toBe(0.9);
+  });
+
+  it("falls back to 0.9 when audioRate is undefined", () => {
+    mockAudioRate = undefined;
+    const { result } = renderHook(() => useAudio());
+    act(() => { result.current.speak("Hallo"); });
+    const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
+    expect(utterance.rate).toBe(0.9);
+  });
+
+  it("falls back to 0.9 when audioRate is Infinity", () => {
+    mockAudioRate = Infinity;
+    const { result } = renderHook(() => useAudio());
+    act(() => { result.current.speak("Hallo"); });
+    const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
+    expect(utterance.rate).toBe(0.9);
+  });
+
+  it("clamps audioRate to 0.1 minimum", () => {
+    mockAudioRate = 0.01;
+    const { result } = renderHook(() => useAudio());
+    act(() => { result.current.speak("Hallo"); });
+    const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
+    expect(utterance.rate).toBe(0.1);
+  });
+
+  it("clamps audioRate to 10 maximum", () => {
+    mockAudioRate = 50;
+    const { result } = renderHook(() => useAudio());
+    act(() => { result.current.speak("Hallo"); });
+    const utterance = mockSpeak.mock.calls[0][0] as SpeechSynthesisUtterance;
+    expect(utterance.rate).toBe(10);
   });
 });
