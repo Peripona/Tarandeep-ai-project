@@ -1,0 +1,111 @@
+{
+  "id": "a2-dativ",
+  "title": "The Dative Case",
+  "level": "A2",
+  "summary": "The dative case marks the indirect object of a verb — the person or thing to whom or for whom something is done. All three genders change their article forms, and plural nouns gain an extra -n in the dative.",
+  "sections": [
+    {
+      "heading": "Articles in the dative case",
+      "body": [
+        "In the dative case, all genders change their article forms. Masculine and neuter use dem (definite) / einem (indefinite). Feminine uses der (definite) / einer (indefinite). The plural definite article is den, and all plural nouns add -n to their plural form if they do not already end in -n or -s.",
+        "To identify the indirect object, ask 'Wem?' (to whom?). For example: 'Ich gebe dem Kind ein Buch.' → 'Wem gebe ich das Buch? Dem Kind.' — dem signals that Kind (neuter) is the indirect object."
+      ],
+      "examples": [
+        { "de": "Ich helfe dem Mann.", "en": "I help the man. (masc.)" },
+        { "de": "Sie gibt der Frau ein Geschenk.", "en": "She gives the woman a present. (fem.)" },
+        { "de": "Er dankt dem Kind.", "en": "He thanks the child. (neut.)" },
+        { "de": "Wir helfen den Kindern.", "en": "We help the children. (plural)" }
+      ],
+      "table": {
+        "headers": ["Gender", "Nominative", "Dative (definite)", "Dative (indefinite)"],
+        "rows": [
+          { "cells": ["Masculine", "der", "dem", "einem"] },
+          { "cells": ["Feminine", "die", "der", "einer"] },
+          { "cells": ["Neuter", "das", "dem", "einem"] },
+          { "cells": ["Plural", "die", "den (+n)", "–"] }
+        ]
+      }
+    },
+    {
+      "heading": "Dative prepositions",
+      "body": [
+        "Certain prepositions always require the dative case. The most important ones are: aus (out of / from), bei (at / with / near), mit (with), nach (after / to), seit (since / for), von (from / by / of), zu (to), gegenüber (opposite / across from). A helpful mnemonic for the first seven is 'aus bei mit nach seit von zu'.",
+        "After any of these prepositions, you must use the dative article forms. Note the common contractions: bei + dem = beim, von + dem = vom, zu + dem = zum, zu + der = zur. For example: 'Ich gehe zum Supermarkt.' (zu + dem Supermarkt → zum)."
+      ],
+      "examples": [
+        { "de": "Ich komme aus der Schweiz.", "en": "I come from Switzerland." },
+        { "de": "Er wohnt bei seiner Oma.", "en": "He lives with his grandmother." },
+        { "de": "Wir fahren mit dem Bus.", "en": "We travel by bus." },
+        { "de": "Nach dem Unterricht gehe ich nach Hause.", "en": "After class I go home." },
+        { "de": "Ich lerne seit einem Jahr Deutsch.", "en": "I have been learning German for a year." },
+        { "de": "Das ist ein Geschenk von meiner Freundin.", "en": "That is a present from my (girl)friend." },
+        { "de": "Sie geht zur Universität.", "en": "She goes to university." },
+        { "de": "Die Bäckerei ist gegenüber dem Bahnhof.", "en": "The bakery is opposite the station." }
+      ]
+    },
+    {
+      "heading": "Dative verbs and indirect objects",
+      "body": [
+        "Some German verbs always take a dative object. The most common are: helfen (to help), danken (to thank), gehören (to belong to), gefallen (to please / to like), glauben (to believe), folgen (to follow), antworten (to answer). These verbs describe an action directed at a person, but grammatically that person is dative, not accusative.",
+        "When a sentence has both a direct object (accusative) and an indirect object (dative), the usual word order is: dative first, then accusative — unless the accusative is a pronoun, in which case the pronoun comes first. Example: 'Ich zeige dem Kind das Buch.' (dative noun before accusative noun) vs. 'Ich zeige ihm das Buch.' (dative pronoun is still first here)."
+      ],
+      "examples": [
+        { "de": "Kannst du mir helfen?", "en": "Can you help me?" },
+        { "de": "Das Buch gehört meinem Bruder.", "en": "The book belongs to my brother." },
+        { "de": "Die Musik gefällt mir sehr.", "en": "I like the music a lot. (lit.: The music pleases me a lot.)" },
+        { "de": "Ich schicke meiner Mutter eine Nachricht.", "en": "I am sending my mother a message." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-dat-1",
+      "type": "fillBlank",
+      "prompt": "Ich fahre mit ___ Zug. (der Zug – masculine)",
+      "answer": "dem",
+      "alternatives": [],
+      "explanation": "mit always takes the dative. The dative definite article for masculine nouns is dem."
+    },
+    {
+      "id": "a2-dat-2",
+      "type": "multipleChoice",
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "Er wohnt bei die Freunde.",
+        "Er wohnt bei den Freunden.",
+        "Er wohnt bei der Freunde.",
+        "Er wohnt bei dem Freunde."
+      ],
+      "correctIndex": 1,
+      "explanation": "bei takes the dative. The plural dative is den, and plural nouns add -n: die Freunde → den Freunden."
+    },
+    {
+      "id": "a2-dat-3",
+      "type": "fillBlank",
+      "prompt": "Das Buch gehört ___ Lehrerin. (die Lehrerin – feminine)",
+      "answer": "der",
+      "alternatives": [],
+      "explanation": "gehören takes a dative object. The dative definite article for feminine nouns is der."
+    },
+    {
+      "id": "a2-dat-4",
+      "type": "multipleChoice",
+      "question": "\"I have been living here since a year.\" Choose the correct German phrase:",
+      "options": [
+        "seit ein Jahr",
+        "seit einem Jahr",
+        "seit einen Jahr",
+        "seit eines Jahres"
+      ],
+      "correctIndex": 1,
+      "explanation": "seit takes the dative. Jahr is neuter; the indefinite dative article for neuter is einem: seit einem Jahr."
+    },
+    {
+      "id": "a2-dat-5",
+      "type": "wordOrder",
+      "words": ["Sie", "ihrer", "Schwester", "gibt", "das", "Buch"],
+      "correctOrder": ["Sie", "gibt", "ihrer", "Schwester", "das", "Buch"],
+      "explanation": "The verb (gibt) takes position 2. The dative indirect object (ihrer Schwester) comes before the accusative direct object (das Buch)."
+    }
+  ]
+}

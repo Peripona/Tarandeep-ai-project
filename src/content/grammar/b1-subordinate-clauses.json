@@ -1,0 +1,109 @@
+{
+  "id": "b1-subordinate-clauses",
+  "title": "Subordinate Clauses",
+  "level": "B1",
+  "summary": "How to connect sentences using subordinating conjunctions that send the verb to the end of the clause.",
+  "sections": [
+    {
+      "heading": "Common Subordinating Conjunctions",
+      "body": [
+        "Subordinating conjunctions introduce a dependent clause and force the conjugated verb to move to the very end of that clause. This is different from main clauses, where the verb sits in second position.",
+        "The most important subordinating conjunctions are: weil (because), dass (that), obwohl (although), wenn (if / when – present/future), als (when – single past event), während (while), and damit (so that).",
+        "The comma always separates the main clause from the subordinate clause, regardless of which comes first."
+      ],
+      "examples": [
+        { "de": "Ich bleibe zu Hause, weil ich krank bin.", "en": "I am staying at home because I am ill." },
+        { "de": "Er sagt, dass er morgen kommt.", "en": "He says that he is coming tomorrow." },
+        { "de": "Sie geht spazieren, obwohl es regnet.", "en": "She goes for a walk although it is raining." },
+        { "de": "Wenn ich Zeit habe, lese ich ein Buch.", "en": "When/If I have time, I read a book." },
+        { "de": "Als ich jung war, wohnte ich in Berlin.", "en": "When I was young, I lived in Berlin." },
+        { "de": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann.", "en": "I am learning German so that I can work in Germany." }
+      ],
+      "table": {
+        "headers": ["Conjunction", "Meaning", "Use"],
+        "rows": [
+          { "cells": ["weil", "because", "reason (present/past/future)"] },
+          { "cells": ["dass", "that", "reported speech, opinions, facts"] },
+          { "cells": ["obwohl", "although", "concession / contrast"] },
+          { "cells": ["wenn", "if / when", "conditions or repeated/future events"] },
+          { "cells": ["als", "when", "single completed past event"] },
+          { "cells": ["während", "while", "simultaneous actions"] },
+          { "cells": ["damit", "so that", "purpose / goal"] }
+        ]
+      }
+    },
+    {
+      "heading": "Word Order in Subordinate Clauses",
+      "body": [
+        "The golden rule: conjunction + subject + (objects / adverbs) + verb (final position).",
+        "If the subordinate clause comes first, the main clause begins with the conjugated verb immediately after the comma — the two finite verbs end up next to each other across the comma.",
+        "With a modal verb (kann, muss, darf…) the modal goes last and the infinitive sits just before it: '…weil er heute nicht kommen kann.'",
+        "With the Perfekt tense, the auxiliary verb (hat/ist) goes to the very end, after the Partizip II: '…weil er das Buch gelesen hat.'"
+      ],
+      "examples": [
+        { "de": "Ich lerne viel, weil ich die Prüfung bestehen möchte.", "en": "I study a lot because I want to pass the exam." },
+        { "de": "Weil es kalt ist, trage ich einen Mantel.", "en": "Because it is cold, I am wearing a coat." },
+        { "de": "Sie freut sich, dass du gekommen bist.", "en": "She is happy that you have come." },
+        { "de": "Er geht nicht aus, während es schneit.", "en": "He does not go out while it is snowing." },
+        { "de": "Ich weiß nicht, ob er Zeit hat.", "en": "I don't know whether he has time." }
+      ]
+    },
+    {
+      "heading": "Subordinate Clauses in First Position",
+      "body": [
+        "A subordinate clause may lead the sentence. In that case the entire subordinate clause counts as the first element, so the main-clause verb comes immediately after the comma (V2 rule still applies to the main clause).",
+        "Pattern: [Conjunction … verb], [main verb] + [subject] + …",
+        "This structure is common when the speaker wants to emphasise the reason, condition, or concession rather than the main event."
+      ],
+      "examples": [
+        { "de": "Weil ich müde bin, gehe ich früh schlafen.", "en": "Because I am tired, I am going to bed early." },
+        { "de": "Obwohl es spät ist, lernt sie noch.", "en": "Although it is late, she is still studying." },
+        { "de": "Als er ankam, war das Essen fertig.", "en": "When he arrived, the food was ready." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-sc-1",
+      "type": "fillBlank",
+      "prompt": "Ich esse nicht, weil ich keinen Hunger ___. (haben)",
+      "answer": "habe",
+      "explanation": "In a weil-clause the conjugated verb moves to the end: '…weil ich keinen Hunger habe.'"
+    },
+    {
+      "id": "b1-sc-2",
+      "type": "multipleChoice",
+      "question": "Which sentence has the correct word order?",
+      "options": [
+        "Er bleibt zu Hause, weil er ist krank.",
+        "Er bleibt zu Hause, weil krank er ist.",
+        "Er bleibt zu Hause, weil er krank ist.",
+        "Er bleibt, weil er krank zu Hause ist."
+      ],
+      "correctIndex": 2,
+      "explanation": "The verb 'ist' must come at the very end of the subordinate clause introduced by 'weil'."
+    },
+    {
+      "id": "b1-sc-3",
+      "type": "wordOrder",
+      "words": ["sie", "Ich", "dass", "weiß", "kommt", "morgen"],
+      "correctOrder": ["Ich", "weiß", "dass", "sie", "morgen", "kommt"],
+      "explanation": "Main clause: 'Ich weiß' (V2). Subordinate clause after 'dass': subject 'sie', adverb 'morgen', verb 'kommt' at the end."
+    },
+    {
+      "id": "b1-sc-4",
+      "type": "fillBlank",
+      "prompt": "Obwohl es regnete, ___ wir spazieren gegangen. (sein)",
+      "answer": "sind",
+      "explanation": "The obwohl-clause comes first; the main clause therefore begins with the finite verb 'sind', followed by the subject 'wir'."
+    },
+    {
+      "id": "b1-sc-5",
+      "type": "multipleChoice",
+      "question": "Choose the correct conjunction: 'Sie arbeitet viel, ___ sie viel Geld verdienen möchte.'",
+      "options": ["obwohl", "als", "damit", "während"],
+      "correctIndex": 2,
+      "explanation": "'Damit' expresses purpose (so that). She works a lot so that she can earn a lot of money."
+    }
+  ]
+}

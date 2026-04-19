@@ -1,0 +1,113 @@
+{
+  "id": "c1-nominalization",
+  "title": "Nominalization",
+  "level": "C1",
+  "summary": "German frequently turns verbs and adjectives into nouns (nominalization), especially in formal and written language. Mastering nominalization is essential for academic, professional, and journalistic registers.",
+  "sections": [
+    {
+      "heading": "Nominalizing Verbs: Infinitive as Noun",
+      "body": [
+        "Any German infinitive can be used as a noun by capitalizing it. Nominalized infinitives are always neuter (das) and take the genitive '-s' as needed.",
+        "They typically describe an activity or process in the abstract: das Lesen (reading), das Schreiben (writing), das Denken (thinking), das Lernen (learning), das Reisen (travelling).",
+        "As nouns, they can be the subject, object, or complement of a sentence and can take the full range of German case endings on their article.",
+        "They may also take a genitive attribute: das Schreiben des Berichts (the writing of the report)."
+      ],
+      "examples": [
+        { "de": "Das Lesen fördert die Konzentration.", "en": "Reading promotes concentration." },
+        { "de": "Durch das regelmäßige Üben verbessert man seine Fähigkeiten.", "en": "Through regular practice one improves one's skills." },
+        { "de": "Das Denken in Alternativen ist eine wichtige Kompetenz.", "en": "Thinking in alternatives is an important competency." },
+        { "de": "Nach dem Schreiben des Berichts fühlte sie sich erleichtert.", "en": "After writing the report, she felt relieved." }
+      ]
+    },
+    {
+      "heading": "Nominal Style vs. Verbal Style in Formal Writing",
+      "body": [
+        "Formal German—particularly in academic, legal, and bureaucratic writing—strongly favours nominal style (Nominalstil), in which actions are expressed through nouns rather than finite verbs.",
+        "This results in longer noun phrases with fewer main verbs, conveying precision and objectivity. However, overuse can reduce readability.",
+        "Verbal style (Verbalstil) is more direct and clearer, and is preferred in journalism and modern plain-language writing.",
+        "Recognising both styles and being able to convert between them is a key C1 skill."
+      ],
+      "examples": [
+        { "de": "Nominal: Die Durchführung der Analyse ergab überraschende Resultate.", "en": "The carrying out of the analysis yielded surprising results." },
+        { "de": "Verbal: Als die Analyse durchgeführt wurde, ergaben sich überraschende Resultate.", "en": "When the analysis was carried out, surprising results emerged." },
+        { "de": "Nominal: Die Inanspruchnahme dieser Dienstleistung setzt eine Registrierung voraus.", "en": "The use of this service requires registration." },
+        { "de": "Verbal: Um diese Dienstleistung zu nutzen, müssen Sie sich registrieren.", "en": "To use this service, you must register." }
+      ]
+    },
+    {
+      "heading": "Common Nominalization Suffixes",
+      "body": [
+        "Many German nouns are formed from verbs or adjectives using derivational suffixes. The suffix determines the gender.",
+        "-ung (feminine): added to verb stems to denote a process or result — die Lösung (solution, from lösen), die Entwicklung (development, from entwickeln), die Erfahrung (experience, from erfahren), die Verbesserung (improvement, from verbessern).",
+        "-heit / -keit (feminine): added to adjectives — die Freiheit (freedom, from frei), die Möglichkeit (possibility, from möglich), die Einheit (unity, from ein), die Schwierigkeit (difficulty, from schwierig).",
+        "-nis (neuter or feminine): die Erkenntnis (insight), das Ergebnis (result), die Kenntnis (knowledge), das Hindernis (obstacle).",
+        "-schaft (feminine): denotes a collective, state, or relationship — die Gesellschaft (society), die Freundschaft (friendship), die Wissenschaft (science), die Bereitschaft (readiness)."
+      ],
+      "examples": [
+        { "de": "Die Vereinfachung der Regeln war notwendig.", "en": "The simplification of the rules was necessary." },
+        { "de": "Die Bereitschaft zur Zusammenarbeit ist entscheidend.", "en": "The willingness to cooperate is decisive." },
+        { "de": "Das Ergebnis der Untersuchung liegt nun vor.", "en": "The result of the investigation is now available." },
+        { "de": "Seine Zuverlässigkeit wird von allen geschätzt.", "en": "His reliability is appreciated by everyone." }
+      ],
+      "table": {
+        "headers": ["Suffix", "Gender", "Derived from", "Example"],
+        "rows": [
+          { "cells": ["-ung", "feminine", "verbs", "die Lösung, die Forschung"] },
+          { "cells": ["-heit", "feminine", "adjectives", "die Freiheit, die Einheit"] },
+          { "cells": ["-keit", "feminine", "adjectives (-ig, -lich, -sam)", "die Möglichkeit, die Freundlichkeit"] },
+          { "cells": ["-nis", "neuter / feminine", "verbs / adjectives", "das Ergebnis, die Kenntnis"] },
+          { "cells": ["-schaft", "feminine", "nouns / adjectives", "die Freundschaft, die Wissenschaft"] }
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-nom-1",
+      "type": "fillBlank",
+      "prompt": "Die ___ (entwickeln → -ung noun) neuer Technologien erfordert viel Investition.",
+      "answer": "Entwicklung",
+      "explanation": "The verb 'entwickeln' is nominalized with the suffix '-ung' to give 'die Entwicklung' (development). Feminine gender."
+    },
+    {
+      "id": "c1-nom-2",
+      "type": "multipleChoice",
+      "question": "Which sentence exemplifies nominal style (Nominalstil)?",
+      "options": [
+        "Weil das Gesetz geändert wurde, mussten alle Verträge angepasst werden.",
+        "Die Gesetzesänderung hatte die Anpassung aller Verträge zur Folge.",
+        "Man änderte das Gesetz, also musste man alle Verträge anpassen.",
+        "Das Gesetz wurde geändert und deshalb wurden die Verträge angepasst."
+      ],
+      "correctIndex": 1,
+      "explanation": "Option B uses two nominalized nouns ('Gesetzesänderung', 'Anpassung') and no subordinate clause — the hallmark of nominal style."
+    },
+    {
+      "id": "c1-nom-3",
+      "type": "fillBlank",
+      "prompt": "Das ___ (lesen) anspruchsvoller Texte schult das kritische Denken.",
+      "answer": "Lesen",
+      "explanation": "The infinitive 'lesen' is nominalized by capitalizing it → 'das Lesen'. It is always neuter."
+    },
+    {
+      "id": "c1-nom-4",
+      "type": "multipleChoice",
+      "question": "What is the correct gender and nominalization suffix for 'zuverlässig' (reliable)?",
+      "options": [
+        "das Zuverlässigkeit (-keit, neuter)",
+        "die Zuverlässigkeit (-keit, feminine)",
+        "der Zuverlässig (-ig, masculine)",
+        "die Zuverlässigung (-ung, feminine)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Adjectives ending in '-ig' take the suffix '-keit' to form feminine nouns: die Zuverlässigkeit. Nouns with '-keit' are always feminine."
+    },
+    {
+      "id": "c1-nom-5",
+      "type": "wordOrder",
+      "words": ["Analyse", "Die", "Daten", "der", "wichtig.", "ist", "Durchführung", "der"],
+      "correctOrder": ["Die", "Durchführung", "der", "Analyse", "der", "Daten", "ist", "wichtig."],
+      "explanation": "'Die Durchführung der Analyse der Daten' is a nominal-style noun phrase: 'Durchführung' (nominalization of 'durchführen') + two genitive attributes."
+    }
+  ]
+}

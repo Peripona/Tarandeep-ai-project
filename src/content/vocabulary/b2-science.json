@@ -1,0 +1,23 @@
+{
+  "id": "b2-science",
+  "title": "Science & Research",
+  "level": "B2",
+  "topic": "science",
+  "cards": [
+    {"id": "b2-sc-01", "german": "die Forschung", "english": "research", "gender": "feminine", "example": "Die Forschung auf dem Gebiet der Quantencomputer macht große Fortschritte.", "exampleEn": "Research in the field of quantum computing is making great progress.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-02", "german": "das Experiment", "english": "experiment", "gender": "neuter", "example": "Das Experiment lieferte überraschende Ergebnisse, die die Theorie in Frage stellten.", "exampleEn": "The experiment produced surprising results that called the theory into question.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-03", "german": "die Hypothese", "english": "hypothesis", "gender": "feminine", "example": "Die Wissenschaftlerin stellte eine neue Hypothese zur Entstehung des Lebens auf.", "exampleEn": "The scientist put forward a new hypothesis about the origin of life.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-04", "german": "beweisen", "english": "to prove", "gender": null, "example": "Es ist schwierig, diese Theorie mit den vorhandenen Daten zu beweisen.", "exampleEn": "It is difficult to prove this theory with the available data.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-05", "german": "die Entdeckung", "english": "discovery", "gender": "feminine", "example": "Die Entdeckung des Penicillins veränderte die Medizin für immer.", "exampleEn": "The discovery of penicillin changed medicine forever.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-06", "german": "das Labor", "english": "laboratory", "gender": "neuter", "example": "Im Labor werden täglich Hunderte von Proben untersucht.", "exampleEn": "Hundreds of samples are examined in the laboratory every day.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-07", "german": "die Technologie", "english": "technology", "gender": "feminine", "example": "Neue Technologien verändern die Art und Weise, wie wir arbeiten.", "exampleEn": "New technologies are changing the way we work.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-08", "german": "künstliche Intelligenz", "english": "artificial intelligence", "gender": null, "example": "Künstliche Intelligenz wird zunehmend in der medizinischen Diagnostik eingesetzt.", "exampleEn": "Artificial intelligence is increasingly being used in medical diagnostics.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-09", "german": "die Daten", "english": "data", "gender": "plural", "example": "Die gesammelten Daten wurden sorgfältig ausgewertet und dokumentiert.", "exampleEn": "The collected data was carefully evaluated and documented.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-10", "german": "analysieren", "english": "to analyse", "gender": null, "example": "Die Forscher analysierten die Proben mit modernsten Methoden.", "exampleEn": "The researchers analysed the samples using state-of-the-art methods.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-11", "german": "die Theorie", "english": "theory", "gender": "feminine", "example": "Darwins Theorie der Evolution ist heute wissenschaftlich anerkannt.", "exampleEn": "Darwin's theory of evolution is now scientifically accepted.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-12", "german": "entwickeln", "english": "to develop", "gender": null, "example": "Das Team entwickelte einen neuen Impfstoff gegen die Krankheit.", "exampleEn": "The team developed a new vaccine against the disease.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-13", "german": "die Innovation", "english": "innovation", "gender": "feminine", "example": "Ohne Innovation kann ein Unternehmen langfristig nicht wettbewerbsfähig bleiben.", "exampleEn": "Without innovation a company cannot remain competitive in the long term.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-14", "german": "messen", "english": "to measure", "gender": null, "example": "Die Forscher messen die Temperatur in regelmäßigen Abständen.", "exampleEn": "The researchers measure the temperature at regular intervals.", "level": "B2", "topic": "science"},
+    {"id": "b2-sc-15", "german": "das Ergebnis", "english": "result", "gender": "neuter", "example": "Das Ergebnis der Studie wurde in einer renommierten Fachzeitschrift veröffentlicht.", "exampleEn": "The result of the study was published in a renowned specialist journal.", "level": "B2", "topic": "science"}
+  ]
+}

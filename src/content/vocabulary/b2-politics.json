@@ -1,0 +1,23 @@
+{
+  "id": "b2-politics",
+  "title": "Politics & Society",
+  "level": "B2",
+  "topic": "politics",
+  "cards": [
+    {"id": "b2-po-01", "german": "die Demokratie", "english": "democracy", "gender": "feminine", "example": "Die Demokratie lebt von der aktiven Beteiligung der Bürger.", "exampleEn": "Democracy depends on the active participation of citizens.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-02", "german": "die Wahl", "english": "election", "gender": "feminine", "example": "Bei der nächsten Wahl möchte ich mein Wahlrecht nutzen.", "exampleEn": "At the next election I want to exercise my right to vote.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-03", "german": "die Regierung", "english": "government", "gender": "feminine", "example": "Die Regierung hat neue Maßnahmen zur Bekämpfung der Inflation angekündigt.", "exampleEn": "The government has announced new measures to combat inflation.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-04", "german": "das Parlament", "english": "parliament", "gender": "neuter", "example": "Das Parlament hat das neue Gesetz mit großer Mehrheit verabschiedet.", "exampleEn": "Parliament passed the new law by a large majority.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-05", "german": "die Partei", "english": "party", "gender": "feminine", "example": "Welcher Partei gehört der neue Bürgermeister an?", "exampleEn": "Which party does the new mayor belong to?", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-06", "german": "abstimmen", "english": "to vote", "gender": null, "example": "Die Abgeordneten stimmten gestern über den Haushaltsentwurf ab.", "exampleEn": "The MPs voted on the budget draft yesterday.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-07", "german": "der Bürger", "english": "citizen (male)", "gender": "masculine", "example": "Jeder Bürger hat das Recht, seine Meinung frei zu äußern.", "exampleEn": "Every citizen has the right to express their opinion freely.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-08", "german": "die Bürgerin", "english": "citizen (female)", "gender": "feminine", "example": "Als engagierte Bürgerin setzt sie sich für soziale Gerechtigkeit ein.", "exampleEn": "As an engaged citizen, she advocates for social justice.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-09", "german": "die Freiheit", "english": "freedom", "gender": "feminine", "example": "Die Meinungsfreiheit ist ein grundlegendes Recht in einer Demokratie.", "exampleEn": "Freedom of expression is a fundamental right in a democracy.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-10", "german": "die Gerechtigkeit", "english": "justice", "gender": "feminine", "example": "Soziale Gerechtigkeit ist ein zentrales Thema im Wahlkampf.", "exampleEn": "Social justice is a central topic in the election campaign.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-11", "german": "der Kompromiss", "english": "compromise", "gender": "masculine", "example": "Nach langen Verhandlungen einigten sich die Parteien auf einen Kompromiss.", "exampleEn": "After lengthy negotiations, the parties agreed on a compromise.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-12", "german": "die Reform", "english": "reform", "gender": "feminine", "example": "Die geplante Reform des Bildungssystems ist umstritten.", "exampleEn": "The planned reform of the education system is controversial.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-13", "german": "die Verfassung", "english": "constitution", "gender": "feminine", "example": "Das Grundgesetz ist die Verfassung der Bundesrepublik Deutschland.", "exampleEn": "The Basic Law is the constitution of the Federal Republic of Germany.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-14", "german": "das Gesetz", "english": "law", "gender": "neuter", "example": "Dieses Gesetz schützt die Privatsphäre der Bürgerinnen und Bürger.", "exampleEn": "This law protects the privacy of citizens.", "level": "B2", "topic": "politics"},
+    {"id": "b2-po-15", "german": "die Opposition", "english": "opposition", "gender": "feminine", "example": "Die Opposition kritisierte den Gesetzentwurf scharf.", "exampleEn": "The opposition criticised the bill sharply.", "level": "B2", "topic": "politics"}
+  ]
+}

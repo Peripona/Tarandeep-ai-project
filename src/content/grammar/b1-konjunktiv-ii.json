@@ -1,0 +1,121 @@
+{
+  "id": "b1-konjunktiv-ii",
+  "title": "Konjunktiv II (Conditional)",
+  "level": "B1",
+  "summary": "Using Konjunktiv II to express wishes, hypothetical situations, and polite requests.",
+  "sections": [
+    {
+      "heading": "würde + Infinitive – The Standard Construction",
+      "body": [
+        "The most common way to form the Konjunktiv II in modern German is to use the auxiliary 'würde' (the Konjunktiv II form of 'werden') together with the infinitive of the main verb.",
+        "This construction is equivalent to English 'would + verb' and is used for hypothetical situations, wishes, and polite requests.",
+        "Formula: subject + conjugated würde + (other elements) + infinitive (at the end).",
+        "Example hypothetical: 'Wenn ich Zeit hätte, würde ich mehr lesen.' (If I had time, I would read more.) Note that the condition clause uses a special verb form (hätte), which is covered in the next section."
+      ],
+      "examples": [
+        { "de": "Ich würde gern Urlaub machen.", "en": "I would like to go on holiday." },
+        { "de": "Würdest du mir bitte helfen?", "en": "Would you please help me?" },
+        { "de": "Er würde das nie sagen.", "en": "He would never say that." },
+        { "de": "Wir würden gerne früher kommen.", "en": "We would like to come earlier." }
+      ],
+      "table": {
+        "headers": ["Person", "würde"],
+        "rows": [
+          { "cells": ["ich", "würde"] },
+          { "cells": ["du", "würdest"] },
+          { "cells": ["er / sie / es", "würde"] },
+          { "cells": ["wir", "würden"] },
+          { "cells": ["ihr", "würdet"] },
+          { "cells": ["sie / Sie", "würden"] }
+        ]
+      }
+    },
+    {
+      "heading": "Special Konjunktiv II Forms",
+      "body": [
+        "Several very common verbs have their own dedicated Konjunktiv II forms that are used directly without 'würde'. Using these forms sounds more natural and is preferred by native speakers.",
+        "The most important special forms are: wäre (would be / were – from 'sein'), hätte (would have – from 'haben'), könnte (could – from 'können'), müsste (would have to – from 'müssen'), dürfte (would be allowed to – from 'dürfen'), sollte (should – from 'sollen').",
+        "These forms are based on the Präteritum stem with an umlaut added where possible, plus Konjunktiv endings (-e, -est, -e, -en, -et, -en).",
+        "Saying 'würde sein' instead of 'wäre' is considered incorrect in formal German, so these special forms must be learned."
+      ],
+      "examples": [
+        { "de": "Das wäre toll!", "en": "That would be great!" },
+        { "de": "Ich hätte gern einen Kaffee.", "en": "I would like a coffee." },
+        { "de": "Könntest du das wiederholen?", "en": "Could you repeat that?" },
+        { "de": "Ich müsste eigentlich lernen.", "en": "I really should be studying." },
+        { "de": "Wenn ich du wäre, würde ich das nicht tun.", "en": "If I were you, I would not do that." }
+      ],
+      "table": {
+        "headers": ["Infinitive", "Konjunktiv II (ich)", "Konjunktiv II (Sie)", "Meaning"],
+        "rows": [
+          { "cells": ["sein", "wäre", "wären", "would be"] },
+          { "cells": ["haben", "hätte", "hätten", "would have"] },
+          { "cells": ["können", "könnte", "könnten", "could"] },
+          { "cells": ["müssen", "müsste", "müssten", "would have to"] },
+          { "cells": ["dürfen", "dürfte", "dürften", "would be allowed to"] },
+          { "cells": ["sollen", "sollte", "sollten", "should"] }
+        ]
+      }
+    },
+    {
+      "heading": "Polite Requests with Konjunktiv II",
+      "body": [
+        "One of the most practical uses of the Konjunktiv II at B1 level is making polite requests. Using the Konjunktiv II instead of the present tense or imperative softens the request considerably.",
+        "Common polite request patterns: Könnten Sie…? (Could you…?), Würden Sie…? (Would you…?), Hätten Sie…? (Would you have…?), Dürfte ich…? (May I / Might I…?).",
+        "These forms are essential in formal situations: at work, in shops, in restaurants, and when speaking to strangers.",
+        "Compare: 'Geben Sie mir das Buch!' (Give me the book! – imperative, abrupt) vs. 'Könnten Sie mir das Buch geben?' (Could you give me the book? – polite)."
+      ],
+      "examples": [
+        { "de": "Könnten Sie mir bitte helfen?", "en": "Could you please help me?" },
+        { "de": "Würden Sie das bitte wiederholen?", "en": "Would you please repeat that?" },
+        { "de": "Hätten Sie einen Moment Zeit?", "en": "Would you have a moment?" },
+        { "de": "Dürfte ich das Fenster aufmachen?", "en": "Might I open the window?" },
+        { "de": "Ich hätte gern ein Zimmer mit Meerblick.", "en": "I would like a room with a sea view." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-k2-1",
+      "type": "fillBlank",
+      "prompt": "Wenn ich reich wäre, ___ ich eine Weltreise machen. (würde/würden)",
+      "answer": "würde",
+      "explanation": "1st person singular Konjunktiv II of 'werden' is 'würde'. The sentence means: 'If I were rich, I would take a trip around the world.'"
+    },
+    {
+      "id": "b1-k2-2",
+      "type": "multipleChoice",
+      "question": "Which is the correct Konjunktiv II form of 'sein' for 'ich'?",
+      "options": ["würde sein", "wäre", "sei", "gewesen"],
+      "correctIndex": 1,
+      "explanation": "'Wäre' is the dedicated Konjunktiv II form of 'sein'. Saying 'würde sein' is considered incorrect in standard German."
+    },
+    {
+      "id": "b1-k2-3",
+      "type": "wordOrder",
+      "words": ["Sie", "Könnten", "helfen", "mir", "bitte"],
+      "correctOrder": ["Könnten", "Sie", "mir", "bitte", "helfen"],
+      "explanation": "In a polite question, the Konjunktiv II auxiliary comes first, then the subject 'Sie', then other elements, and the infinitive 'helfen' goes to the end."
+    },
+    {
+      "id": "b1-k2-4",
+      "type": "fillBlank",
+      "prompt": "Er ___ gern mehr schlafen, aber er hat keine Zeit. (Konjunktiv II von mögen / würde…)",
+      "answer": "würde",
+      "explanation": "'Er würde gern mehr schlafen' uses 'würde' + infinitive to express a wish. (Möchte is also possible in meaning but 'würde gern' is the target Konjunktiv II pattern here.)"
+    },
+    {
+      "id": "b1-k2-5",
+      "type": "multipleChoice",
+      "question": "How would you politely ask 'Could you repeat that?' in German?",
+      "options": [
+        "Können Sie das wiederholen?",
+        "Könnten Sie das wiederholen?",
+        "Würden Sie das wiederholen können?",
+        "Sie können das wiederholen."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Könnten Sie…?' (Konjunktiv II of 'können') is the standard polite form. 'Können Sie…?' (present indicative) is grammatically correct but less polite in formal contexts."
+    }
+  ]
+}

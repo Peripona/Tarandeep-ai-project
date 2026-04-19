@@ -1,0 +1,93 @@
+{
+  "id": "a2-modal-verbs",
+  "title": "Modal Verbs",
+  "level": "A2",
+  "summary": "German has six modal verbs that express ability, obligation, permission, desire, and expectation. They are combined with the infinitive of a main verb, which moves to the end of the sentence.",
+  "sections": [
+    {
+      "heading": "The six modal verbs and their meanings",
+      "body": [
+        "The six German modal verbs are: können (can / to be able to), müssen (must / to have to), wollen (to want to), dürfen (may / to be allowed to), sollen (should / to be supposed to), mögen / möchten (to like / would like to). Möchten is technically the Konjunktiv II form of mögen but is treated as a separate modal at A2 level.",
+        "All modal verbs are irregular in the singular present tense: the ich and er/sie/es forms are the same and have no ending, and the stem vowel often changes. The plural forms (wir, ihr, sie) are regular. The table below shows the full present-tense conjugations of können and müssen as models."
+      ],
+      "examples": [
+        { "de": "Ich kann gut schwimmen.", "en": "I can swim well." },
+        { "de": "Du musst jetzt schlafen.", "en": "You have to sleep now." },
+        { "de": "Er will ein Auto kaufen.", "en": "He wants to buy a car." },
+        { "de": "Wir dürfen hier nicht parken.", "en": "We are not allowed to park here." },
+        { "de": "Sie soll um acht Uhr kommen.", "en": "She is supposed to come at eight o'clock." },
+        { "de": "Ich möchte einen Kaffee bestellen.", "en": "I would like to order a coffee." }
+      ],
+      "table": {
+        "headers": ["Pronoun", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"],
+        "rows": [
+          { "cells": ["ich", "kann", "muss", "will", "darf", "soll", "möchte"] },
+          { "cells": ["du", "kannst", "musst", "willst", "darfst", "sollst", "möchtest"] },
+          { "cells": ["er / sie / es", "kann", "muss", "will", "darf", "soll", "möchte"] },
+          { "cells": ["wir", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"] },
+          { "cells": ["ihr", "könnt", "müsst", "wollt", "dürft", "sollt", "möchtet"] },
+          { "cells": ["sie / Sie", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"] }
+        ]
+      }
+    },
+    {
+      "heading": "Sentence structure with modal verbs",
+      "body": [
+        "In a main clause, the conjugated modal verb occupies position 2 (the verb position), and the infinitive of the main verb is placed at the very end of the sentence. This is called the Satzklammer (sentence bracket): the two verb parts form a bracket around the rest of the sentence.",
+        "In a subordinate clause introduced by a conjunction such as weil, dass, or ob, the conjugated modal moves to the end and comes after the infinitive: '…weil ich heute arbeiten muss.' In yes/no questions the modal moves to position 1: 'Kannst du mir helfen?'"
+      ],
+      "examples": [
+        { "de": "Er kann sehr gut Deutsch sprechen.", "en": "He can speak German very well." },
+        { "de": "Wir müssen morgen früh aufstehen.", "en": "We have to get up early tomorrow." },
+        { "de": "Kannst du mir bitte helfen?", "en": "Can you please help me?" },
+        { "de": "Ich weiß, dass sie kommen will.", "en": "I know that she wants to come." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-mv-1",
+      "type": "fillBlank",
+      "prompt": "Er ___ sehr gut kochen. (können)",
+      "answer": "kann",
+      "alternatives": [],
+      "explanation": "The er/sie/es form of können is kann (no ending, stem vowel ö → a)."
+    },
+    {
+      "id": "a2-mv-2",
+      "type": "multipleChoice",
+      "question": "Which sentence has the correct word order?",
+      "options": [
+        "Ich kaufen will ein Fahrrad.",
+        "Ich will ein Fahrrad kaufen.",
+        "Ich will kaufen ein Fahrrad.",
+        "Will ich ein Fahrrad kaufen."
+      ],
+      "correctIndex": 1,
+      "explanation": "The conjugated modal (will) takes position 2, and the infinitive (kaufen) goes to the end of the sentence."
+    },
+    {
+      "id": "a2-mv-3",
+      "type": "fillBlank",
+      "prompt": "Ihr ___ hier nicht rauchen. (dürfen)",
+      "answer": "dürft",
+      "alternatives": [],
+      "explanation": "The ihr form of dürfen is dürft."
+    },
+    {
+      "id": "a2-mv-4",
+      "type": "multipleChoice",
+      "question": "\"She is supposed to call her mother.\" Which modal verb is correct?",
+      "options": ["kann", "will", "soll", "darf"],
+      "correctIndex": 2,
+      "explanation": "sollen expresses an obligation or expectation set by someone else: Sie soll ihre Mutter anrufen."
+    },
+    {
+      "id": "a2-mv-5",
+      "type": "wordOrder",
+      "words": ["Wir", "heute", "müssen", "Hausaufgaben", "machen"],
+      "correctOrder": ["Wir", "müssen", "heute", "Hausaufgaben", "machen"],
+      "explanation": "The modal (müssen) takes position 2, the infinitive (machen) goes to the end. The adverb heute follows the modal."
+    }
+  ]
+}

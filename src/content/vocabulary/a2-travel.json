@@ -1,0 +1,23 @@
+{
+  "id": "a2-travel",
+  "title": "Travel & Transport",
+  "level": "A2",
+  "topic": "travel",
+  "cards": [
+    {"id": "a2-tr-01", "german": "der Zug", "english": "train", "gender": "masculine", "example": "Der Zug fährt um acht Uhr ab.", "exampleEn": "The train departs at eight o'clock.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-02", "german": "der Bus", "english": "bus", "gender": "masculine", "example": "Ich nehme den Bus zur Arbeit.", "exampleEn": "I take the bus to work.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-03", "german": "das Flugzeug", "english": "plane", "gender": "neuter", "example": "Das Flugzeug landet in einer Stunde.", "exampleEn": "The plane lands in one hour.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-04", "german": "der Flughafen", "english": "airport", "gender": "masculine", "example": "Wir müssen früh am Flughafen sein.", "exampleEn": "We need to be at the airport early.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-05", "german": "der Bahnhof", "english": "train station", "gender": "masculine", "example": "Der Bahnhof ist nicht weit von hier.", "exampleEn": "The train station is not far from here.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-06", "german": "das Ticket", "english": "ticket", "gender": "neuter", "example": "Ich habe mein Ticket online gekauft.", "exampleEn": "I bought my ticket online.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-07", "german": "die Reise", "english": "journey / trip", "gender": "feminine", "example": "Die Reise nach Wien war sehr schön.", "exampleEn": "The trip to Vienna was very nice.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-08", "german": "der Koffer", "english": "suitcase", "gender": "masculine", "example": "Mein Koffer ist sehr schwer.", "exampleEn": "My suitcase is very heavy.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-09", "german": "das Hotel", "english": "hotel", "gender": "neuter", "example": "Das Hotel liegt direkt am Strand.", "exampleEn": "The hotel is right on the beach.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-10", "german": "das Zimmer", "english": "room", "gender": "neuter", "example": "Ich möchte ein Zimmer für zwei Nächte.", "exampleEn": "I would like a room for two nights.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-11", "german": "buchen", "english": "to book", "gender": null, "example": "Hast du das Hotel schon gebucht?", "exampleEn": "Have you already booked the hotel?", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-12", "german": "abfahren", "english": "to depart", "gender": null, "example": "Der Zug fährt in fünf Minuten ab.", "exampleEn": "The train departs in five minutes.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-13", "german": "ankommen", "english": "to arrive", "gender": null, "example": "Wir kommen morgen früh an.", "exampleEn": "We arrive tomorrow morning.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-14", "german": "der Fahrplan", "english": "timetable", "gender": "masculine", "example": "Der Fahrplan hängt am Bahnhof.", "exampleEn": "The timetable is posted at the station.", "level": "A2", "topic": "travel"},
+    {"id": "a2-tr-15", "german": "umsteigen", "english": "to change / transfer", "gender": null, "example": "Du musst in Frankfurt umsteigen.", "exampleEn": "You have to change trains in Frankfurt.", "level": "A2", "topic": "travel"}
+  ]
+}

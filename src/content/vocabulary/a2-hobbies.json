@@ -1,0 +1,23 @@
+{
+  "id": "a2-hobbies",
+  "title": "Hobbies & Leisure",
+  "level": "A2",
+  "topic": "hobbies",
+  "cards": [
+    {"id": "a2-ho-01", "german": "das Hobby", "english": "hobby", "gender": "neuter", "example": "Was ist dein Hobby?", "exampleEn": "What is your hobby?", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-02", "german": "Sport treiben", "english": "to do sport", "gender": null, "example": "Er treibt dreimal pro Woche Sport.", "exampleEn": "He does sport three times a week.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-03", "german": "schwimmen", "english": "to swim", "gender": null, "example": "Im Sommer schwimme ich gern im See.", "exampleEn": "In summer I like to swim in the lake.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-04", "german": "lesen", "english": "to read", "gender": null, "example": "Ich lese jeden Abend ein Buch.", "exampleEn": "I read a book every evening.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-05", "german": "kochen", "english": "to cook", "gender": null, "example": "Sie kocht am Wochenende gern für Freunde.", "exampleEn": "She likes to cook for friends at the weekend.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-06", "german": "reisen", "english": "to travel", "gender": null, "example": "Wir reisen jedes Jahr nach Italien.", "exampleEn": "We travel to Italy every year.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-07", "german": "fotografieren", "english": "to take photos", "gender": null, "example": "Er fotografiert gern in der Stadt.", "exampleEn": "He likes taking photos in the city.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-08", "german": "das Konzert", "english": "concert", "gender": "neuter", "example": "Wir gehen morgen in ein Konzert.", "exampleEn": "We are going to a concert tomorrow.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-09", "german": "das Kino", "english": "cinema", "gender": "neuter", "example": "Möchtest du heute Abend ins Kino gehen?", "exampleEn": "Would you like to go to the cinema tonight?", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-10", "german": "der Verein", "english": "club / association", "gender": "masculine", "example": "Sie ist Mitglied in einem Sportverein.", "exampleEn": "She is a member of a sports club.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-11", "german": "spielen", "english": "to play", "gender": null, "example": "Die Kinder spielen im Park.", "exampleEn": "The children are playing in the park.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-12", "german": "das Spiel", "english": "game", "gender": "neuter", "example": "Wir spielen nach dem Abendessen ein Spiel.", "exampleEn": "We play a game after dinner.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-13", "german": "wandern", "english": "to hike", "gender": null, "example": "Am Wochenende wandern wir in den Bergen.", "exampleEn": "At the weekend we hike in the mountains.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-14", "german": "zeichnen", "english": "to draw", "gender": null, "example": "Sie zeichnet gern Porträts von Menschen.", "exampleEn": "She likes to draw portraits of people.", "level": "A2", "topic": "hobbies"},
+    {"id": "a2-ho-15", "german": "die Freizeit", "english": "free time / leisure", "gender": "feminine", "example": "In meiner Freizeit höre ich Musik.", "exampleEn": "In my free time I listen to music.", "level": "A2", "topic": "hobbies"}
+  ]
+}

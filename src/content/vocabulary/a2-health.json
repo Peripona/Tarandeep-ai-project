@@ -1,0 +1,23 @@
+{
+  "id": "a2-health",
+  "title": "Health & Body",
+  "level": "A2",
+  "topic": "health",
+  "cards": [
+    {"id": "a2-he-01", "german": "der Kopf", "english": "head", "gender": "masculine", "example": "Mein Kopf tut weh.", "exampleEn": "My head hurts.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-02", "german": "der Arm", "english": "arm", "gender": "masculine", "example": "Er hat sich den Arm gebrochen.", "exampleEn": "He has broken his arm.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-03", "german": "das Bein", "english": "leg", "gender": "neuter", "example": "Mein Bein tut nach dem Sport weh.", "exampleEn": "My leg hurts after doing sport.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-04", "german": "der Bauch", "english": "stomach", "gender": "masculine", "example": "Ich habe Bauchschmerzen nach dem Essen.", "exampleEn": "I have stomach pain after eating.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-05", "german": "der Rücken", "english": "back", "gender": "masculine", "example": "Mein Rücken schmerzt vom langen Sitzen.", "exampleEn": "My back aches from sitting for a long time.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-06", "german": "die Schmerzen", "english": "pain (plural)", "gender": "plural", "example": "Sie hat starke Schmerzen im Bein.", "exampleEn": "She has strong pain in her leg.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-07", "german": "krank", "english": "sick", "gender": null, "example": "Er ist krank und bleibt zu Hause.", "exampleEn": "He is sick and stays at home.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-08", "german": "gesund", "english": "healthy", "gender": null, "example": "Sport und gutes Essen halten uns gesund.", "exampleEn": "Sport and good food keep us healthy.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-09", "german": "der Arzt", "english": "doctor (masc.)", "gender": "masculine", "example": "Der Arzt gibt mir ein Rezept.", "exampleEn": "The doctor gives me a prescription.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-10", "german": "die Ärztin", "english": "doctor (fem.)", "gender": "feminine", "example": "Die Ärztin sagt, ich soll mehr Wasser trinken.", "exampleEn": "The doctor says I should drink more water.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-11", "german": "das Krankenhaus", "english": "hospital", "gender": "neuter", "example": "Er liegt im Krankenhaus.", "exampleEn": "He is in hospital.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-12", "german": "die Apotheke", "english": "pharmacy", "gender": "feminine", "example": "Ich hole das Medikament in der Apotheke.", "exampleEn": "I pick up the medication from the pharmacy.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-13", "german": "das Medikament", "english": "medication", "gender": "neuter", "example": "Nehmen Sie das Medikament dreimal täglich.", "exampleEn": "Take the medication three times a day.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-14", "german": "Fieber haben", "english": "to have a fever", "gender": null, "example": "Das Kind hat hohes Fieber.", "exampleEn": "The child has a high fever.", "level": "A2", "topic": "health"},
+    {"id": "a2-he-15", "german": "sich erholen", "english": "to recover", "gender": null, "example": "Sie erholt sich langsam von der Krankheit.", "exampleEn": "She is slowly recovering from the illness.", "level": "A2", "topic": "health"}
+  ]
+}

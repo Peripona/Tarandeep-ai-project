@@ -1,0 +1,23 @@
+{
+  "id": "b2-economy",
+  "title": "Economy & Business",
+  "level": "B2",
+  "topic": "economy",
+  "cards": [
+    {"id": "b2-ec-01", "german": "die Wirtschaft", "english": "economy", "gender": "feminine", "example": "Die deutsche Wirtschaft ist stark vom Export abhängig.", "exampleEn": "The German economy is heavily dependent on exports.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-02", "german": "das Unternehmen", "english": "company / enterprise", "gender": "neuter", "example": "Das Unternehmen plant, seinen Standort ins Ausland zu verlagern.", "exampleEn": "The company is planning to relocate its site abroad.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-03", "german": "der Markt", "english": "market", "gender": "masculine", "example": "Der Markt für erneuerbare Energien wächst seit Jahren rasant.", "exampleEn": "The market for renewable energies has been growing rapidly for years.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-04", "german": "die Inflation", "english": "inflation", "gender": "feminine", "example": "Die hohe Inflation hat die Kaufkraft der Bevölkerung geschwächt.", "exampleEn": "High inflation has weakened the purchasing power of the population.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-05", "german": "das Wachstum", "english": "growth", "gender": "neuter", "example": "Das Wirtschaftswachstum lag im letzten Jahr bei zwei Prozent.", "exampleEn": "Economic growth was two percent last year.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-06", "german": "investieren", "english": "to invest", "gender": null, "example": "Viele Unternehmen investieren verstärkt in künstliche Intelligenz.", "exampleEn": "Many companies are increasingly investing in artificial intelligence.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-07", "german": "die Aktie", "english": "share / stock", "gender": "feminine", "example": "Der Kurs der Aktie ist nach der Gewinnwarnung gefallen.", "exampleEn": "The share price fell after the profit warning.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-08", "german": "der Gewinn", "english": "profit", "gender": "masculine", "example": "Das Unternehmen erzielte im dritten Quartal einen Rekordgewinn.", "exampleEn": "The company achieved a record profit in the third quarter.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-09", "german": "der Verlust", "english": "loss", "gender": "masculine", "example": "Durch die Krise musste das Unternehmen erhebliche Verluste hinnehmen.", "exampleEn": "Due to the crisis the company had to accept considerable losses.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-10", "german": "die Nachfrage", "english": "demand", "gender": "feminine", "example": "Die Nachfrage nach Elektroautos ist in den letzten Jahren stark gestiegen.", "exampleEn": "Demand for electric cars has increased sharply in recent years.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-11", "german": "das Angebot", "english": "supply", "gender": "neuter", "example": "Das Angebot an Fachkräften kann die Nachfrage kaum decken.", "exampleEn": "The supply of skilled workers can barely meet demand.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-12", "german": "die Globalisierung", "english": "globalisation", "gender": "feminine", "example": "Die Globalisierung hat den Welthandel grundlegend verändert.", "exampleEn": "Globalisation has fundamentally changed world trade.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-13", "german": "exportieren", "english": "to export", "gender": null, "example": "Deutschland exportiert Maschinen und Fahrzeuge in alle Welt.", "exampleEn": "Germany exports machinery and vehicles all over the world.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-14", "german": "importieren", "english": "to import", "gender": null, "example": "Das Land muss einen Großteil seines Energiebedarfs importieren.", "exampleEn": "The country must import a large part of its energy needs.", "level": "B2", "topic": "economy"},
+    {"id": "b2-ec-15", "german": "der Haushalt", "english": "budget / household", "gender": "masculine", "example": "Der Bundeshaushalt muss ohne neue Schulden ausgeglichen werden.", "exampleEn": "The federal budget must be balanced without taking on new debt.", "level": "B2", "topic": "economy"}
+  ]
+}

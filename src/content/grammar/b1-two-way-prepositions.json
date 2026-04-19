@@ -1,0 +1,117 @@
+{
+  "id": "b1-two-way-prepositions",
+  "title": "Two-Way Prepositions",
+  "level": "B1",
+  "summary": "Nine prepositions that take either accusative (movement/direction) or dative (location/position).",
+  "sections": [
+    {
+      "heading": "The Nine Two-Way Prepositions",
+      "body": [
+        "Nine German prepositions can govern either the accusative or the dative case depending on the meaning of the sentence.",
+        "The key question to ask is: Wohin? (Where to? → direction → accusative) or Wo? (Where? → location → dative).",
+        "Accusative (Wohin?) signals movement or change of position toward a destination. Dative (Wo?) signals a static position or location with no change of place.",
+        "The nine prepositions are: an (at/on – vertical surfaces or edges), auf (on top of), hinter (behind), in (in/into), neben (next to/beside), über (over/above), unter (under/below), vor (in front of/before), zwischen (between).",
+        "Common contractions: in + dem = im, in + das = ins, an + dem = am, an + das = ans."
+      ],
+      "examples": [
+        { "de": "Ich lege das Buch auf den Tisch.", "en": "I put the book onto the table. (Wohin? → accusative)" },
+        { "de": "Das Buch liegt auf dem Tisch.", "en": "The book is lying on the table. (Wo? → dative)" },
+        { "de": "Sie hängt das Bild an die Wand.", "en": "She hangs the picture on the wall. (Wohin? → accusative)" },
+        { "de": "Das Bild hängt an der Wand.", "en": "The picture is hanging on the wall. (Wo? → dative)" },
+        { "de": "Wir gehen ins Kino.", "en": "We are going to the cinema. (Wohin? → accusative: in + das)" },
+        { "de": "Wir sind im Kino.", "en": "We are at the cinema. (Wo? → dative: in + dem)" }
+      ],
+      "table": {
+        "headers": ["Preposition", "Meaning", "Akkusativ (Wohin?)", "Dativ (Wo?)"],
+        "rows": [
+          { "cells": ["an", "at / on (vertical)", "an die Wand (f.)", "an der Wand (f.)"] },
+          { "cells": ["auf", "on top of", "auf den Tisch (m.)", "auf dem Tisch (m.)"] },
+          { "cells": ["hinter", "behind", "hinter das Haus (n.)", "hinter dem Haus (n.)"] },
+          { "cells": ["in", "in / into", "in den Schrank (m.)", "in dem (im) Schrank (m.)"] },
+          { "cells": ["neben", "next to", "neben die Lampe (f.)", "neben der Lampe (f.)"] },
+          { "cells": ["über", "over / above", "über das Bett (n.)", "über dem Bett (n.)"] },
+          { "cells": ["unter", "under / below", "unter den Stuhl (m.)", "unter dem Stuhl (m.)"] },
+          { "cells": ["vor", "in front of / before", "vor das Haus (n.)", "vor dem Haus (n.)"] },
+          { "cells": ["zwischen", "between", "zwischen die Bücher (pl.)", "zwischen den Büchern (pl.)"] }
+        ]
+      }
+    },
+    {
+      "heading": "Common Verb Pairs: Putting vs. Being Located",
+      "body": [
+        "German has paired verbs that correspond to the accusative/dative distinction: one verb describes an action that causes a change of position (requires accusative), the other describes the resulting static state (requires dative).",
+        "legen (to lay/put – lying flat) / liegen (to lie/be lying): 'Ich lege das Heft auf den Tisch.' → 'Das Heft liegt auf dem Tisch.'",
+        "stellen (to place upright) / stehen (to stand/be standing): 'Sie stellt die Flasche in den Kühlschrank.' → 'Die Flasche steht im Kühlschrank.'",
+        "hängen (to hang – transitive, someone hangs it) / hängen (to hang – intransitive, it is hanging): 'Er hängt den Kalender an die Wand.' → 'Der Kalender hängt an der Wand.'",
+        "setzen (to set/place/sit someone down) / sitzen (to sit/be sitting): 'Die Mutter setzt das Kind auf den Stuhl.' → 'Das Kind sitzt auf dem Stuhl.'",
+        "The verbs in the left column (legen, stellen, hängen-transitive, setzen) are all transitive — they take a direct object and require accusative after the two-way preposition. The verbs in the right column (liegen, stehen, hängen-intransitive, sitzen) describe states and require dative."
+      ],
+      "examples": [
+        { "de": "Ich stelle die Vase auf den Tisch.", "en": "I place the vase on the table. (stellen + accusative)" },
+        { "de": "Die Vase steht auf dem Tisch.", "en": "The vase is standing on the table. (stehen + dative)" },
+        { "de": "Er legt das Buch neben das Heft.", "en": "He lays the book next to the notebook. (legen + accusative)" },
+        { "de": "Das Buch liegt neben dem Heft.", "en": "The book is lying next to the notebook. (liegen + dative)" },
+        { "de": "Sie setzt sich auf den Sessel.", "en": "She sits down on the armchair. (sich setzen + accusative)" },
+        { "de": "Sie sitzt auf dem Sessel.", "en": "She is sitting on the armchair. (sitzen + dative)" }
+      ],
+      "table": {
+        "headers": ["Action verb (+ Akkusativ)", "State verb (+ Dativ)", "English pair"],
+        "rows": [
+          { "cells": ["legen", "liegen", "to lay / to be lying"] },
+          { "cells": ["stellen", "stehen", "to place upright / to be standing"] },
+          { "cells": ["hängen (transitive)", "hängen (intransitive)", "to hang (it) / to be hanging"] },
+          { "cells": ["setzen", "sitzen", "to set / to be sitting"] }
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-twp-1",
+      "type": "multipleChoice",
+      "question": "Ich hänge das Bild ___ die Wand. (Which case is needed and why?)",
+      "options": [
+        "der Wand – dative, because the picture is already there",
+        "die Wand – accusative, because we are describing movement / placing",
+        "der Wand – dative, because 'an' always takes dative",
+        "dem Wand – dative, because hängen requires dative"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Hänge' (transitive) describes the action of putting the picture on the wall (Wohin?), so 'an' takes the accusative: 'an die Wand'."
+    },
+    {
+      "id": "b1-twp-2",
+      "type": "fillBlank",
+      "prompt": "Die Katze sitzt ___ dem Sofa. (auf / in / an)",
+      "answer": "auf",
+      "explanation": "'Auf' means 'on top of'. The cat is sitting on top of the sofa (Wo? → dative 'dem Sofa'). 'Auf dem Sofa' is correct."
+    },
+    {
+      "id": "b1-twp-3",
+      "type": "wordOrder",
+      "words": ["den", "Ich", "stelle", "Kühlschrank", "die", "in", "Flasche"],
+      "correctOrder": ["Ich", "stelle", "die", "Flasche", "in", "den", "Kühlschrank"],
+      "explanation": "'Stellen' is an action verb (Wohin?), so 'in' takes the accusative: 'in den Kühlschrank' (der Kühlschrank → accusative = den Kühlschrank)."
+    },
+    {
+      "id": "b1-twp-4",
+      "type": "multipleChoice",
+      "question": "Which sentence correctly uses the dative to show location?",
+      "options": [
+        "Das Auto steht vor das Haus.",
+        "Das Auto steht vor dem Haus.",
+        "Das Auto stellt vor dem Haus.",
+        "Das Auto fährt vor dem Haus."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Steht' (stehen) describes a static location (Wo?), so 'vor' takes the dative: 'vor dem Haus'. 'Vor das Haus' would indicate movement (Wohin?)."
+    },
+    {
+      "id": "b1-twp-5",
+      "type": "fillBlank",
+      "prompt": "Er legt das Hemd ___ den Schrank. (in / im)",
+      "answer": "in",
+      "explanation": "'Legen' is an action verb (Wohin? – placing into the wardrobe), so 'in' requires the accusative: 'in den Schrank'. 'Im' is a dative contraction (in + dem) used for location."
+    }
+  ]
+}

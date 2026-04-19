@@ -1,0 +1,105 @@
+{
+  "id": "b2-infinitive-clauses",
+  "title": "Infinitive Clauses",
+  "level": "B2",
+  "summary": "Infinitive constructions with 'zu' allow elegant, concise expressions of purpose, plans, and opinions. They are shorter than subordinate clauses and essential for fluid, natural German.",
+  "sections": [
+    {
+      "heading": "um...zu, ohne...zu, anstatt...zu",
+      "body": [
+        "'um...zu + infinitive' expresses purpose (in order to). The infinitive goes to the end of the clause.",
+        "'ohne...zu + infinitive' expresses the absence of an expected action (without doing something).",
+        "'anstatt...zu + infinitive' (also: 'statt...zu') expresses substitution (instead of doing something).",
+        "Word order: the 'um', 'ohne', or 'anstatt' comes before the rest of the infinitive phrase; 'zu' directly precedes the infinitive at the very end. With separable verbs, 'zu' is inserted between prefix and stem: aufzuhören, einzukaufen.",
+        "These constructions share their subject with the main clause — no additional subject is stated in the infinitive clause."
+      ],
+      "examples": [
+        { "de": "Sie lernt Deutsch, um in Wien zu studieren.", "en": "She is learning German in order to study in Vienna." },
+        { "de": "Er hat den ganzen Tag gearbeitet, ohne eine Pause zu machen.", "en": "He worked all day without taking a break." },
+        { "de": "Anstatt zu schlafen, hat sie noch drei Kapitel gelesen.", "en": "Instead of sleeping, she read three more chapters." },
+        { "de": "Ich spare Geld, um mir ein neues Fahrrad zu kaufen.", "en": "I am saving money in order to buy myself a new bicycle." }
+      ]
+    },
+    {
+      "heading": "Verbs Followed by zu + Infinitive",
+      "body": [
+        "Many German verbs require 'zu + infinitive' rather than a dass-clause when the subject of the infinitive clause is the same as the subject of the main clause.",
+        "Common verbs: versuchen (to try), hoffen (to hope), planen (to plan), vergessen (to forget), anfangen (to start), aufhören (to stop), vorhaben (to intend), beschließen (to decide), beabsichtigen (to intend), wagen (to dare).",
+        "When the infinitive clause depends on a modal or on 'lassen', 'sehen', 'hören', 'helfen', 'lehren', the bare infinitive (without 'zu') is used instead.",
+        "With separable verbs, 'zu' is placed between prefix and stem: Ich fange an, aufzuräumen."
+      ],
+      "examples": [
+        { "de": "Sie versucht, jeden Tag Sport zu treiben.", "en": "She tries to exercise every day." },
+        { "de": "Er hat vergessen, die Tür abzuschließen.", "en": "He forgot to lock the door." },
+        { "de": "Wir planen, nächsten Sommer nach Griechenland zu reisen.", "en": "We are planning to travel to Greece next summer." },
+        { "de": "Ich habe beschlossen, mit dem Rauchen aufzuhören.", "en": "I have decided to stop smoking." },
+        { "de": "Sie fing an zu weinen, als sie die Nachricht hörte.", "en": "She started to cry when she heard the news." }
+      ]
+    },
+    {
+      "heading": "Infinitive Clauses as Subject or Object",
+      "body": [
+        "An infinitive clause can function as the subject of a sentence. In this case, a proleptic 'es' often holds the subject position in sentences where the infinitive clause follows the main verb.",
+        "Alternatively, the infinitive clause comes first, and the main clause follows without 'es': 'Jeden Tag zu laufen ist gesund.'",
+        "Infinitive clauses also function as direct objects (comparable to a dass-clause). This is possible when the subject of the object clause is the same as the subject of the main clause.",
+        "When subjects differ, a dass-clause with a finite verb must be used instead of a zu + infinitive construction."
+      ],
+      "examples": [
+        { "de": "Es ist wichtig, täglich zu üben.", "en": "It is important to practise daily." },
+        { "de": "Gesund zu leben ist kein Luxus.", "en": "Living healthily is not a luxury." },
+        { "de": "Sie hofft, die Prüfung zu bestehen.", "en": "She hopes to pass the exam." },
+        { "de": "Es freut mich, Sie kennenzulernen.", "en": "I am pleased to meet you." },
+        { "de": "Ihm fällt es schwer, früh aufzustehen.", "en": "He finds it hard to get up early." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-inf-1",
+      "type": "fillBlank",
+      "prompt": "Er ist früh aufgestanden, ___ den ersten Zug ___ nehmen. (um...zu)",
+      "answer": "um / zu",
+      "explanation": "'Um...zu + infinitive' expresses purpose. The infinitive 'nehmen' goes to the end: 'um den ersten Zug zu nehmen'."
+    },
+    {
+      "id": "b2-inf-2",
+      "type": "multipleChoice",
+      "question": "Which sentence uses 'ohne...zu' correctly?",
+      "options": [
+        "Sie hat die Frage beantwortet, ohne nachzudenken.",
+        "Sie hat die Frage beantwortet, ohne zu nachdenken.",
+        "Sie hat die Frage beantwortet, ohne nachdenken.",
+        "Sie hat die Frage beantwortet, ohne dass nachzudenken."
+      ],
+      "correctIndex": 0,
+      "explanation": "With the separable verb 'nachdenken', 'zu' is inserted between the prefix 'nach' and the stem 'denken': 'nachzudenken'. 'Ohne' directly precedes this infinitive phrase."
+    },
+    {
+      "id": "b2-inf-3",
+      "type": "fillBlank",
+      "prompt": "Ich habe vergessen, die E-Mail ___. (abschicken → zu + infinitive, separable verb)",
+      "answer": "abzuschicken",
+      "explanation": "With separable verbs, 'zu' is inserted between prefix 'ab-' and stem 'schicken': 'abzuschicken'."
+    },
+    {
+      "id": "b2-inf-4",
+      "type": "multipleChoice",
+      "question": "Which construction is grammatically correct?",
+      "options": [
+        "Es ist unmöglich, das Problem alleine lösen.",
+        "Es ist unmöglich, das Problem alleine zu lösen.",
+        "Es ist unmöglich, dass das Problem alleine zu lösen.",
+        "Es ist unmöglich zu, das Problem alleine lösen."
+      ],
+      "correctIndex": 1,
+      "explanation": "After adjectives like 'unmöglich', 'wichtig', 'schwer', 'zu + infinitive' is required. 'Zu' immediately precedes the infinitive at the end of the clause."
+    },
+    {
+      "id": "b2-inf-5",
+      "type": "wordOrder",
+      "words": ["anstatt", "Sie", "hat", "uns", "geholfen,", "selbst", "zu", "aufzugeben."],
+      "correctOrder": ["Anstatt", "aufzugeben,", "hat", "sie", "uns", "geholfen,", "selbst", "zu"],
+      "explanation": "NOTE: This exercise focuses on recognising the 'anstatt...zu' structure. The infinitive clause 'anstatt aufzugeben' precedes the main clause. (In a full sentence: 'Anstatt aufzugeben, hat sie uns geholfen, es selbst zu schaffen.')"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "b1-environment",
+  "title": "Environment & Nature",
+  "level": "B1",
+  "topic": "environment",
+  "cards": [
+    {
+      "id": "b1-environment-1",
+      "german": "die Umwelt",
+      "english": "environment",
+      "gender": "feminine",
+      "example": "Wir müssen die Umwelt für zukünftige Generationen schützen.",
+      "exampleEn": "We must protect the environment for future generations.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-2",
+      "german": "der Klimawandel",
+      "english": "climate change",
+      "gender": "masculine",
+      "example": "Der Klimawandel ist eine der größten Herausforderungen unserer Zeit.",
+      "exampleEn": "Climate change is one of the greatest challenges of our time.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-3",
+      "german": "die Energie",
+      "english": "energy",
+      "gender": "feminine",
+      "example": "Wir sollten mehr erneuerbare Energie nutzen.",
+      "exampleEn": "We should use more renewable energy.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-4",
+      "german": "erneuerbar",
+      "english": "renewable",
+      "gender": null,
+      "example": "Solar- und Windkraft sind erneuerbare Energiequellen.",
+      "exampleEn": "Solar and wind power are renewable energy sources.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-5",
+      "german": "der Müll",
+      "english": "rubbish / waste",
+      "gender": "masculine",
+      "example": "Bitte wirf den Müll nicht auf die Straße.",
+      "exampleEn": "Please do not throw rubbish on the street.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-6",
+      "german": "recyceln",
+      "english": "to recycle",
+      "gender": null,
+      "example": "In Deutschland ist es wichtig, Glas und Papier zu recyceln.",
+      "exampleEn": "In Germany it is important to recycle glass and paper.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-7",
+      "german": "der Wald",
+      "english": "forest",
+      "gender": "masculine",
+      "example": "Der Wald in dieser Region ist durch den sauren Regen gefährdet.",
+      "exampleEn": "The forest in this region is threatened by acid rain.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-8",
+      "german": "die Natur",
+      "english": "nature",
+      "gender": "feminine",
+      "example": "Am Wochenende gehe ich gerne in der Natur spazieren.",
+      "exampleEn": "At the weekend I like to go for walks in nature.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-9",
+      "german": "schützen",
+      "english": "to protect",
+      "gender": null,
+      "example": "Wir müssen die Meere vor Plastikmüll schützen.",
+      "exampleEn": "We must protect the oceans from plastic waste.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-10",
+      "german": "die Verschmutzung",
+      "english": "pollution",
+      "gender": "feminine",
+      "example": "Die Luftverschmutzung in der Stadt ist ein ernstes Problem.",
+      "exampleEn": "Air pollution in the city is a serious problem.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-11",
+      "german": "nachhaltig",
+      "english": "sustainable",
+      "gender": null,
+      "example": "Sie kauft am liebsten nachhaltige Produkte.",
+      "exampleEn": "She prefers to buy sustainable products.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-12",
+      "german": "das Tier",
+      "english": "animal",
+      "gender": "neuter",
+      "example": "Viele Tiere verlieren ihren Lebensraum durch die Abholzung.",
+      "exampleEn": "Many animals are losing their habitat due to deforestation.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-13",
+      "german": "die Pflanze",
+      "english": "plant",
+      "gender": "feminine",
+      "example": "Diese seltene Pflanze wächst nur in tropischen Regenwäldern.",
+      "exampleEn": "This rare plant only grows in tropical rainforests.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-14",
+      "german": "bedroht",
+      "english": "endangered / threatened",
+      "gender": null,
+      "example": "Der Eisbär ist eine bedrohte Tierart.",
+      "exampleEn": "The polar bear is an endangered species.",
+      "level": "B1",
+      "topic": "environment"
+    },
+    {
+      "id": "b1-environment-15",
+      "german": "sparen",
+      "english": "to save / to conserve",
+      "gender": null,
+      "example": "Man kann viel Energie sparen, wenn man das Licht ausschaltet.",
+      "exampleEn": "You can save a lot of energy by turning off the lights.",
+      "level": "B1",
+      "topic": "environment"
+    }
+  ]
+}

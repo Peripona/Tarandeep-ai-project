@@ -1,0 +1,158 @@
+{
+  "id": "b1-media",
+  "title": "Media & Technology",
+  "level": "B1",
+  "topic": "media",
+  "cards": [
+    {
+      "id": "b1-media-1",
+      "german": "die Nachrichten",
+      "english": "news",
+      "gender": "plural",
+      "example": "Ich schaue jeden Abend die Nachrichten im Fernsehen.",
+      "exampleEn": "I watch the news on television every evening.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-2",
+      "german": "das Internet",
+      "english": "internet",
+      "gender": "neuter",
+      "example": "Ohne Internet kann ich heutzutage kaum arbeiten.",
+      "exampleEn": "These days I can hardly work without the internet.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-3",
+      "german": "die App",
+      "english": "app",
+      "gender": "feminine",
+      "example": "Diese App hilft mir, meinen Alltag besser zu organisieren.",
+      "exampleEn": "This app helps me to organise my daily life better.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-4",
+      "german": "herunterladen",
+      "english": "to download",
+      "gender": null,
+      "example": "Ich habe die App auf mein Handy heruntergeladen.",
+      "exampleEn": "I downloaded the app onto my phone.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-5",
+      "german": "soziale Medien",
+      "english": "social media",
+      "gender": "plural",
+      "example": "Viele Jugendliche verbringen viel Zeit auf sozialen Medien.",
+      "exampleEn": "Many young people spend a lot of time on social media.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-6",
+      "german": "die Werbung",
+      "english": "advertising",
+      "gender": "feminine",
+      "example": "Im Internet sieht man überall Werbung.",
+      "exampleEn": "On the internet you see advertising everywhere.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-7",
+      "german": "das Fernsehen",
+      "english": "television",
+      "gender": "neuter",
+      "example": "Das Fernsehen hat weniger Zuschauer, seit es Streaming gibt.",
+      "exampleEn": "Television has fewer viewers since streaming became available.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-8",
+      "german": "streamen",
+      "english": "to stream",
+      "gender": null,
+      "example": "Wir streamen lieber Serien, als ins Kino zu gehen.",
+      "exampleEn": "We prefer to stream series rather than go to the cinema.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-9",
+      "german": "der Podcast",
+      "english": "podcast",
+      "gender": "masculine",
+      "example": "Auf dem Weg zur Arbeit höre ich immer einen Podcast.",
+      "exampleEn": "On the way to work I always listen to a podcast.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-10",
+      "german": "die Webseite",
+      "english": "website",
+      "gender": "feminine",
+      "example": "Die Webseite der Universität enthält alle wichtigen Informationen.",
+      "exampleEn": "The university's website contains all the important information.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-11",
+      "german": "teilen",
+      "english": "to share",
+      "gender": null,
+      "example": "Er hat den interessanten Artikel in seinen sozialen Medien geteilt.",
+      "exampleEn": "He shared the interesting article on his social media.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-12",
+      "german": "kommentieren",
+      "english": "to comment",
+      "gender": null,
+      "example": "Viele Leute kommentieren die Nachrichten online.",
+      "exampleEn": "Many people comment on the news online.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-13",
+      "german": "die Privatsphäre",
+      "english": "privacy",
+      "gender": "feminine",
+      "example": "Ich mache mir Sorgen um meine Privatsphäre im Internet.",
+      "exampleEn": "I am worried about my privacy on the internet.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-14",
+      "german": "hochladen",
+      "english": "to upload",
+      "gender": null,
+      "example": "Sie hat ein neues Video auf ihre Seite hochgeladen.",
+      "exampleEn": "She uploaded a new video to her page.",
+      "level": "B1",
+      "topic": "media"
+    },
+    {
+      "id": "b1-media-15",
+      "german": "digital",
+      "english": "digital",
+      "gender": null,
+      "example": "Die digitale Transformation verändert viele Berufsfelder.",
+      "exampleEn": "The digital transformation is changing many professional fields.",
+      "level": "B1",
+      "topic": "media"
+    }
+  ]
+}

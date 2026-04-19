@@ -1,0 +1,23 @@
+{
+  "id": "a2-weather",
+  "title": "Weather",
+  "level": "A2",
+  "topic": "weather",
+  "cards": [
+    {"id": "a2-we-01", "german": "das Wetter", "english": "weather", "gender": "neuter", "example": "Das Wetter heute ist sehr schön.", "exampleEn": "The weather today is very nice.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-02", "german": "die Sonne", "english": "sun", "gender": "feminine", "example": "Die Sonne scheint den ganzen Tag.", "exampleEn": "The sun shines all day.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-03", "german": "der Regen", "english": "rain", "gender": "masculine", "example": "Der Regen macht die Straße nass.", "exampleEn": "The rain makes the street wet.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-04", "german": "der Schnee", "english": "snow", "gender": "masculine", "example": "Im Winter gibt es viel Schnee.", "exampleEn": "In winter there is a lot of snow.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-05", "german": "der Wind", "english": "wind", "gender": "masculine", "example": "Der Wind ist heute sehr stark.", "exampleEn": "The wind is very strong today.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-06", "german": "die Wolke", "english": "cloud", "gender": "feminine", "example": "Am Himmel sind viele Wolken.", "exampleEn": "There are many clouds in the sky.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-07", "german": "das Gewitter", "english": "thunderstorm", "gender": "neuter", "example": "Das Gewitter kommt heute Abend.", "exampleEn": "The thunderstorm is coming this evening.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-08", "german": "heiß", "english": "hot", "gender": null, "example": "Im Sommer ist es hier sehr heiß.", "exampleEn": "In summer it is very hot here.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-09", "german": "kalt", "english": "cold", "gender": null, "example": "Es ist kalt, zieh eine Jacke an.", "exampleEn": "It is cold, put on a jacket.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-10", "german": "warm", "english": "warm", "gender": null, "example": "Der April ist oft warm und sonnig.", "exampleEn": "April is often warm and sunny.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-11", "german": "kühl", "english": "cool", "gender": null, "example": "Abends ist es kühl, bring einen Pullover mit.", "exampleEn": "In the evenings it is cool, bring a jumper.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-12", "german": "es regnet", "english": "it's raining", "gender": null, "example": "Es regnet schon seit heute Morgen.", "exampleEn": "It has been raining since this morning.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-13", "german": "es schneit", "english": "it's snowing", "gender": null, "example": "Es schneit! Die Kinder spielen draußen.", "exampleEn": "It's snowing! The children play outside.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-14", "german": "die Temperatur", "english": "temperature", "gender": "feminine", "example": "Die Temperatur liegt bei zehn Grad.", "exampleEn": "The temperature is ten degrees.", "level": "A2", "topic": "weather"},
+    {"id": "a2-we-15", "german": "der Wetterbericht", "english": "weather forecast", "gender": "masculine", "example": "Laut Wetterbericht regnet es morgen.", "exampleEn": "According to the weather forecast it will rain tomorrow.", "level": "A2", "topic": "weather"}
+  ]
+}

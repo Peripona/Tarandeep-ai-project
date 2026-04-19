@@ -1,0 +1,23 @@
+{
+  "id": "c1-idioms",
+  "title": "Idioms & Expressions",
+  "level": "C1",
+  "topic": "idioms",
+  "cards": [
+    {"id": "c1-id-01", "german": "auf dem Laufenden bleiben", "english": "to stay up to date", "gender": null, "example": "Es ist wichtig, in diesem Berufsfeld auf dem Laufenden zu bleiben.", "exampleEn": "It is important to stay up to date in this professional field.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-02", "german": "den Nagel auf den Kopf treffen", "english": "to hit the nail on the head", "gender": null, "example": "Mit ihrer Einschätzung hat sie den Nagel auf den Kopf getroffen.", "exampleEn": "With her assessment she hit the nail on the head.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-03", "german": "unter vier Augen", "english": "in private / face to face", "gender": null, "example": "Das sollten wir lieber unter vier Augen besprechen.", "exampleEn": "We should better discuss that in private.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-04", "german": "ins Fettnäpfchen treten", "english": "to put one's foot in it", "gender": null, "example": "Er hat beim Abendessen mit seiner Bemerkung ins Fettnäpfchen getreten.", "exampleEn": "He put his foot in it with his remark at dinner.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-05", "german": "die Daumen drücken", "english": "to keep fingers crossed", "gender": null, "example": "Ich drücke dir die Daumen für deine Prüfung morgen!", "exampleEn": "I'll keep my fingers crossed for your exam tomorrow!", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-06", "german": "auf Anhieb", "english": "straight away / at once", "gender": null, "example": "Sie hat die schwierige Aufgabe auf Anhieb gelöst.", "exampleEn": "She solved the difficult task straight away.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-07", "german": "jemandem auf die Nerven gehen", "english": "to get on someone's nerves", "gender": null, "example": "Das ständige Summen des Klimageräts geht mir auf die Nerven.", "exampleEn": "The constant humming of the air conditioning is getting on my nerves.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-08", "german": "nicht auf den Mund gefallen sein", "english": "to be articulate / quick-witted", "gender": null, "example": "In der Debatte zeigte sich, dass er wirklich nicht auf den Mund gefallen ist.", "exampleEn": "The debate showed that he is truly quick-witted.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-09", "german": "das Beste aus etwas machen", "english": "to make the best of something", "gender": null, "example": "Trotz der schwierigen Umstände haben wir das Beste daraus gemacht.", "exampleEn": "Despite the difficult circumstances, we made the best of it.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-10", "german": "in aller Munde sein", "english": "to be on everyone's lips / talked about everywhere", "gender": null, "example": "Nach dem Skandal war der Politiker in aller Munde.", "exampleEn": "After the scandal the politician was on everyone's lips.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-11", "german": "einen Haken haben", "english": "to have a catch / snag", "gender": null, "example": "Das Angebot klingt verlockend, aber es hat bestimmt einen Haken.", "exampleEn": "The offer sounds tempting, but there is surely a catch.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-12", "german": "auf eigene Faust", "english": "on one's own initiative", "gender": null, "example": "Er reiste auf eigene Faust durch Südamerika, ohne Reiseveranstalter.", "exampleEn": "He travelled through South America on his own initiative, without a tour operator.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-13", "german": "die Flinte ins Korn werfen", "english": "to throw in the towel", "gender": null, "example": "Auch wenn es schwierig wird, solltest du nicht die Flinte ins Korn werfen.", "exampleEn": "Even when things get difficult, you should not throw in the towel.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-14", "german": "schwer von Begriff sein", "english": "to be slow on the uptake", "gender": null, "example": "Er musste die Anweisung dreimal wiederholen, weil sein Kollege etwas schwer von Begriff war.", "exampleEn": "He had to repeat the instruction three times because his colleague was a bit slow on the uptake.", "level": "C1", "topic": "idioms"},
+    {"id": "c1-id-15", "german": "Eulen nach Athen tragen", "english": "to carry coals to Newcastle", "gender": null, "example": "Einem Spitzenkoch ein Kochbuch schenken? Das wäre doch Eulen nach Athen tragen.", "exampleEn": "Giving a top chef a cookery book? That would be carrying coals to Newcastle.", "level": "C1", "topic": "idioms"}
+  ]
+}

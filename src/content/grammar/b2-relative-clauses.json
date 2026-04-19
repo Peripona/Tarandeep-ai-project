@@ -1,0 +1,102 @@
+{
+  "id": "b2-relative-clauses",
+  "title": "Relative Clauses",
+  "level": "B2",
+  "summary": "Relative clauses add information about a noun using relative pronouns that agree in gender and number with the noun they refer to. The relative pronoun takes the case required by its role within the relative clause.",
+  "sections": [
+    {
+      "heading": "Relative Pronouns: Forms",
+      "body": [
+        "Relative pronouns resemble the definite articles but have distinct forms in the dative plural (denen) and all genitive forms (dessen, deren, deren, deren).",
+        "The relative pronoun agrees with its antecedent noun in gender and number, but takes the case required by its grammatical function within the relative clause.",
+        "The relative clause is always set off by commas and the verb goes to the end of the clause."
+      ],
+      "examples": [
+        { "de": "Der Mann, der dort steht, ist mein Nachbar.", "en": "The man who is standing there is my neighbour." },
+        { "de": "Die Frau, die ich gestern traf, heißt Yasmin.", "en": "The woman I met yesterday is called Yasmin." },
+        { "de": "Das Buch, das ich lese, ist sehr spannend.", "en": "The book I am reading is very exciting." }
+      ],
+      "table": {
+        "headers": ["Case", "Masculine", "Feminine", "Neuter", "Plural"],
+        "rows": [
+          { "cells": ["Nominative", "der", "die", "das", "die"] },
+          { "cells": ["Accusative", "den", "die", "das", "die"] },
+          { "cells": ["Dative", "dem", "der", "dem", "denen"] },
+          { "cells": ["Genitive", "dessen", "deren", "dessen", "deren"] }
+        ]
+      }
+    },
+    {
+      "heading": "Relative Clauses with Prepositions",
+      "body": [
+        "When the relative pronoun follows a preposition, the preposition precedes the relative pronoun, and the pronoun takes the case governed by that preposition.",
+        "The preposition + relative pronoun combination sits at the beginning of the relative clause, followed by the rest of the clause with the verb at the end.",
+        "This construction is common at B2 level and above and is essential for precise, connected expression."
+      ],
+      "examples": [
+        { "de": "Das ist das Haus, in dem ich aufgewachsen bin.", "en": "That is the house in which I grew up." },
+        { "de": "Die Kollegin, mit der ich zusammenarbeite, ist sehr kompetent.", "en": "The colleague with whom I work is very competent." },
+        { "de": "Der Stuhl, auf dem du sitzt, ist antik.", "en": "The chair on which you are sitting is antique." },
+        { "de": "Das sind die Themen, über die wir diskutiert haben.", "en": "Those are the topics about which we discussed." }
+      ]
+    },
+    {
+      "heading": "Wo-compounds as Relative Pronouns for Things",
+      "body": [
+        "When referring to a thing (not a person) and a preposition would be required, German uses 'wo-' compounds instead of a preposition + relative pronoun: womit, worüber, wofür, woran, wobei, wovon, worauf etc.",
+        "If the preposition begins with a vowel, 'wor-' is used instead of 'wo-': worüber, worauf, woran, worein.",
+        "Wo-compounds cannot refer to persons; for persons, always use preposition + relative pronoun."
+      ],
+      "examples": [
+        { "de": "Das ist das Werkzeug, womit ich das Regal gebaut habe.", "en": "That is the tool with which I built the shelf." },
+        { "de": "Das Thema, worüber wir sprechen, ist komplex.", "en": "The topic about which we are speaking is complex." },
+        { "de": "Das ist genau das, wofür ich mich interessiere.", "en": "That is exactly what I am interested in." },
+        { "de": "Der Grund, worauf das Argument beruht, ist fragwürdig.", "en": "The basis on which the argument rests is questionable." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-rel-1",
+      "type": "fillBlank",
+      "prompt": "Die Studentin, ___ ich das Buch geliehen habe, hat es noch nicht zurückgegeben. (dative feminine relative pronoun)",
+      "answer": "der",
+      "explanation": "The antecedent 'Studentin' is feminine. Within the relative clause, the student is the indirect object (dative): 'ich habe ihr das Buch geliehen' → relative pronoun 'der' (dative feminine)."
+    },
+    {
+      "id": "b2-rel-2",
+      "type": "multipleChoice",
+      "question": "Choose the correct relative pronoun: Das ist der Kollege, ___ Idee wir umgesetzt haben.",
+      "options": ["der", "dem", "dessen", "den"],
+      "correctIndex": 2,
+      "explanation": "'Idee' belongs to the colleague — this is a genitive relationship. Masculine genitive relative pronoun is 'dessen'."
+    },
+    {
+      "id": "b2-rel-3",
+      "type": "fillBlank",
+      "prompt": "Das ist die Stadt, in ___ Goethe geboren wurde. (dative feminine)",
+      "answer": "der",
+      "explanation": "After 'in' expressing location (where), dative is required. 'Stadt' is feminine, so dative feminine relative pronoun is 'der'."
+    },
+    {
+      "id": "b2-rel-4",
+      "type": "multipleChoice",
+      "question": "Which sentence uses the correct wo-compound?",
+      "options": [
+        "Das ist das Projekt, mit dem wir uns beschäftigen.",
+        "Das ist das Projekt, womit wir uns beschäftigen.",
+        "Das ist das Projekt, der wir uns beschäftigen.",
+        "Both A and B are correct."
+      ],
+      "correctIndex": 3,
+      "explanation": "When the antecedent is a thing, both 'mit dem' (preposition + relative pronoun) and 'womit' (wo-compound) are grammatically correct. Wo-compounds are somewhat more formal."
+    },
+    {
+      "id": "b2-rel-5",
+      "type": "wordOrder",
+      "words": ["ich", "Das", "aufgewachsen", "Dorf,", "bin,", "in", "dem", "liegt", "in Bayern."],
+      "correctOrder": ["Das", "Dorf,", "in", "dem", "ich", "aufgewachsen", "bin,", "liegt", "in Bayern."],
+      "explanation": "The relative clause 'in dem ich aufgewachsen bin' is embedded after the noun 'Dorf'. The preposition 'in' comes first, followed by the relative pronoun 'dem' (dative neuter), then subject and verb-final."
+    }
+  ]
+}

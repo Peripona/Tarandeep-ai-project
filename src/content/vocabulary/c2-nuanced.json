@@ -1,0 +1,20 @@
+{
+  "id": "c2-nuanced",
+  "title": "Nuanced Expression",
+  "level": "C2",
+  "topic": "nuanced",
+  "cards": [
+    {"id": "c2-nu-01", "german": "die Ambivalenz", "english": "ambivalence", "gender": "feminine", "example": "Die Ambivalenz seiner Gefühle gegenüber der neuen Stelle war spürbar.", "exampleEn": "The ambivalence of his feelings towards the new position was palpable.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-02", "german": "die Ambiguität", "english": "ambiguity", "gender": "feminine", "example": "Die Ambiguität des Begriffs erlaubt verschiedene, einander widersprechende Interpretationen.", "exampleEn": "The ambiguity of the term allows for various, mutually contradictory interpretations.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-03", "german": "nuanciert", "english": "nuanced", "gender": null, "example": "Ihre nuancierte Analyse berücksichtigte sowohl die historischen als auch die sozialen Hintergründe.", "exampleEn": "Her nuanced analysis took into account both the historical and social backgrounds.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-04", "german": "die Konnotation", "english": "connotation", "gender": "feminine", "example": "Das Wort trägt je nach Kontext eine positive oder negative Konnotation.", "exampleEn": "The word carries a positive or negative connotation depending on the context.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-05", "german": "subtil", "english": "subtle", "gender": null, "example": "Die subtile Ironie des Textes erschließt sich erst beim zweiten Lesen.", "exampleEn": "The subtle irony of the text only reveals itself on a second reading.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-06", "german": "die Implikation", "english": "implication", "gender": "feminine", "example": "Die weitreichenden Implikationen dieser Entscheidung wurden lange unterschätzt.", "exampleEn": "The far-reaching implications of this decision were underestimated for a long time.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-07", "german": "vielschichtig", "english": "multi-layered", "gender": null, "example": "Der Roman ist vielschichtig und lässt sich auf mehreren Ebenen deuten.", "exampleEn": "The novel is multi-layered and can be interpreted on several levels.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-08", "german": "die Ironie", "english": "irony", "gender": "feminine", "example": "Die Ironie des Schicksals wollte es, dass ausgerechnet er den Preis gewann.", "exampleEn": "The irony of fate would have it that he of all people won the prize.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-09", "german": "die Metapher", "english": "metaphor", "gender": "feminine", "example": "Die Metapher des Lebens als Reise durchzieht den gesamten Text.", "exampleEn": "The metaphor of life as a journey runs through the entire text.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-10", "german": "paradigmatisch", "english": "paradigmatic", "gender": null, "example": "Dieser Fall gilt als paradigmatisch für den gesellschaftlichen Wandel jener Epoche.", "exampleEn": "This case is considered paradigmatic for the social change of that era.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-11", "german": "die Rhetorik", "english": "rhetoric", "gender": "feminine", "example": "Seine Rhetorik war überzeugend, doch der Inhalt der Rede blieb vage.", "exampleEn": "His rhetoric was convincing, yet the content of the speech remained vague.", "level": "C2", "topic": "nuanced"},
+    {"id": "c2-nu-12", "german": "eloquent", "english": "eloquent", "gender": null, "example": "Die eloquente Rednerin begeisterte das Publikum mit ihrer Wortwahl.", "exampleEn": "The eloquent speaker captivated the audience with her choice of words.", "level": "C2", "topic": "nuanced"}
+  ]
+}

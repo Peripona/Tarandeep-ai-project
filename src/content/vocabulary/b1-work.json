@@ -1,0 +1,158 @@
+{
+  "id": "b1-work",
+  "title": "Work & Career",
+  "level": "B1",
+  "topic": "work",
+  "cards": [
+    {
+      "id": "b1-work-1",
+      "german": "der Beruf",
+      "english": "profession",
+      "gender": "masculine",
+      "example": "Was ist dein Beruf?",
+      "exampleEn": "What is your profession?",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-2",
+      "german": "die Stelle",
+      "english": "position / job",
+      "gender": "feminine",
+      "example": "Ich habe mich auf eine Stelle als Buchhalter beworben.",
+      "exampleEn": "I applied for a position as an accountant.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-3",
+      "german": "das Gehalt",
+      "english": "salary",
+      "gender": "neuter",
+      "example": "Mein Gehalt wird jeden Monat auf mein Konto überwiesen.",
+      "exampleEn": "My salary is transferred to my account every month.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-4",
+      "german": "die Bewerbung",
+      "english": "application",
+      "gender": "feminine",
+      "example": "Ich habe meine Bewerbung gestern abgeschickt.",
+      "exampleEn": "I sent off my application yesterday.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-5",
+      "german": "das Vorstellungsgespräch",
+      "english": "job interview",
+      "gender": "neuter",
+      "example": "Das Vorstellungsgespräch war schwierig, aber ich bin zuversichtlich.",
+      "exampleEn": "The job interview was difficult, but I am optimistic.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-6",
+      "german": "der Kollege",
+      "english": "colleague (male)",
+      "gender": "masculine",
+      "example": "Mein Kollege hilft mir immer, wenn ich Fragen habe.",
+      "exampleEn": "My colleague always helps me when I have questions.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-7",
+      "german": "die Kollegin",
+      "english": "colleague (female)",
+      "gender": "feminine",
+      "example": "Meine Kollegin und ich essen oft zusammen zu Mittag.",
+      "exampleEn": "My colleague and I often have lunch together.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-8",
+      "german": "der Chef",
+      "english": "boss (male)",
+      "gender": "masculine",
+      "example": "Mein Chef hat mir ein positives Feedback gegeben.",
+      "exampleEn": "My boss gave me positive feedback.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-9",
+      "german": "die Chefin",
+      "english": "boss (female)",
+      "gender": "feminine",
+      "example": "Die Chefin hat das Meeting auf morgen verschoben.",
+      "exampleEn": "The boss has postponed the meeting until tomorrow.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-10",
+      "german": "kündigen",
+      "english": "to quit / to resign",
+      "gender": null,
+      "example": "Er hat seinen Job gekündigt, weil er eine bessere Stelle gefunden hat.",
+      "exampleEn": "He quit his job because he found a better position.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-11",
+      "german": "einstellen",
+      "english": "to hire",
+      "gender": null,
+      "example": "Die Firma stellt dieses Jahr viele neue Mitarbeiter ein.",
+      "exampleEn": "The company is hiring many new employees this year.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-12",
+      "german": "die Erfahrung",
+      "english": "experience",
+      "gender": "feminine",
+      "example": "Für diese Stelle braucht man mindestens zwei Jahre Erfahrung.",
+      "exampleEn": "For this position, you need at least two years of experience.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-13",
+      "german": "die Ausbildung",
+      "english": "training / apprenticeship",
+      "gender": "feminine",
+      "example": "Sie macht eine Ausbildung zur Krankenpflegerin.",
+      "exampleEn": "She is doing an apprenticeship to become a nurse.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-14",
+      "german": "das Praktikum",
+      "english": "internship",
+      "gender": "neuter",
+      "example": "Ich mache ein Praktikum bei einer Marketingfirma.",
+      "exampleEn": "I am doing an internship at a marketing company.",
+      "level": "B1",
+      "topic": "work"
+    },
+    {
+      "id": "b1-work-15",
+      "german": "die Karriere",
+      "english": "career",
+      "gender": "feminine",
+      "example": "Sie plant ihre Karriere sehr sorgfältig.",
+      "exampleEn": "She plans her career very carefully.",
+      "level": "B1",
+      "topic": "work"
+    }
+  ]
+}

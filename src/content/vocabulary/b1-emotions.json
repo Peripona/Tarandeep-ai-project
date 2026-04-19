@@ -1,0 +1,158 @@
+{
+  "id": "b1-emotions",
+  "title": "Emotions & Character",
+  "level": "B1",
+  "topic": "emotions",
+  "cards": [
+    {
+      "id": "b1-emotions-1",
+      "german": "die Freude",
+      "english": "joy",
+      "gender": "feminine",
+      "example": "Die Freude der Kinder an Weihnachten ist wunderschön.",
+      "exampleEn": "The joy of children at Christmas is wonderful.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-2",
+      "german": "die Trauer",
+      "english": "sadness",
+      "gender": "feminine",
+      "example": "Nach dem Tod seines Hundes war er voller Trauer.",
+      "exampleEn": "After the death of his dog, he was filled with sadness.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-3",
+      "german": "die Wut",
+      "english": "anger",
+      "gender": "feminine",
+      "example": "Er konnte seine Wut kaum kontrollieren.",
+      "exampleEn": "He could barely control his anger.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-4",
+      "german": "die Angst",
+      "english": "fear / anxiety",
+      "gender": "feminine",
+      "example": "Sie hat große Angst vor Spinnen.",
+      "exampleEn": "She is very afraid of spiders.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-5",
+      "german": "stolz",
+      "english": "proud",
+      "gender": null,
+      "example": "Ich bin sehr stolz auf meinen Sohn.",
+      "exampleEn": "I am very proud of my son.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-6",
+      "german": "eifersüchtig",
+      "english": "jealous",
+      "gender": null,
+      "example": "Er war eifersüchtig, weil seine Schwester bessere Noten hatte.",
+      "exampleEn": "He was jealous because his sister had better grades.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-7",
+      "german": "enttäuscht",
+      "english": "disappointed",
+      "gender": null,
+      "example": "Sie war enttäuscht, als sie die Prüfung nicht bestanden hat.",
+      "exampleEn": "She was disappointed when she did not pass the exam.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-8",
+      "german": "aufgeregt",
+      "english": "excited",
+      "gender": null,
+      "example": "Die Kinder waren sehr aufgeregt vor der Reise.",
+      "exampleEn": "The children were very excited before the trip.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-9",
+      "german": "nervös",
+      "english": "nervous",
+      "gender": null,
+      "example": "Ich bin immer nervös, bevor ich einen Vortrag halte.",
+      "exampleEn": "I am always nervous before giving a presentation.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-10",
+      "german": "entspannt",
+      "english": "relaxed",
+      "gender": null,
+      "example": "Nach dem Urlaub fühle ich mich viel entspannter.",
+      "exampleEn": "After the holiday I feel much more relaxed.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-11",
+      "german": "geduldig",
+      "english": "patient",
+      "gender": null,
+      "example": "Ein guter Lehrer muss sehr geduldig sein.",
+      "exampleEn": "A good teacher must be very patient.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-12",
+      "german": "mutig",
+      "english": "brave",
+      "gender": null,
+      "example": "Es war mutig von ihr, alleine durch Europa zu reisen.",
+      "exampleEn": "It was brave of her to travel through Europe alone.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-13",
+      "german": "ehrlich",
+      "english": "honest",
+      "gender": null,
+      "example": "Es ist wichtig, ehrlich zu seinen Freunden zu sein.",
+      "exampleEn": "It is important to be honest with your friends.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-14",
+      "german": "zuverlässig",
+      "english": "reliable",
+      "gender": null,
+      "example": "Er ist sehr zuverlässig und kommt nie zu spät.",
+      "exampleEn": "He is very reliable and never arrives late.",
+      "level": "B1",
+      "topic": "emotions"
+    },
+    {
+      "id": "b1-emotions-15",
+      "german": "selbstbewusst",
+      "english": "self-confident",
+      "gender": null,
+      "example": "Sie tritt immer sehr selbstbewusst auf.",
+      "exampleEn": "She always comes across as very self-confident.",
+      "level": "B1",
+      "topic": "emotions"
+    }
+  ]
+}

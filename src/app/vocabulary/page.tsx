@@ -4,6 +4,15 @@ import { Button } from "@/components/ui/button";
 import { vocabDecks } from "@/content/catalog";
 
 export default function VocabularyPage() {
+  const byLevel = vocabDecks.reduce(
+    (acc, d) => {
+      acc[d.level] = acc[d.level] ?? [];
+      acc[d.level].push(d);
+      return acc;
+    },
+    {} as Record<string, typeof vocabDecks>,
+  );
+
   return (
     <div className="space-y-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -17,11 +26,16 @@ export default function VocabularyPage() {
           <Link href="/vocabulary/review">Review due cards</Link>
         </Button>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {vocabDecks.map((deck) => (
-          <DeckCard key={deck.id} deck={deck} />
-        ))}
-      </div>
+      {Object.entries(byLevel).map(([level, decks]) => (
+        <section key={level} className="space-y-4">
+          <h2 className="text-lg font-semibold">{level}</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {decks.map((deck) => (
+              <DeckCard key={deck.id} deck={deck} />
+            ))}
+          </div>
+        </section>
+      ))}
     </div>
   );
 }

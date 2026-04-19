@@ -1,0 +1,23 @@
+{
+  "id": "c1-academic",
+  "title": "Academic Language",
+  "level": "C1",
+  "topic": "academic",
+  "cards": [
+    {"id": "c1-ac-01", "german": "die Argumentation", "english": "argumentation", "gender": "feminine", "example": "Die Argumentation des Autors ist schlüssig und gut belegt.", "exampleEn": "The author's argumentation is coherent and well substantiated.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-02", "german": "die These", "english": "thesis", "gender": "feminine", "example": "Die zentrale These der Abhandlung wird im zweiten Kapitel entfaltet.", "exampleEn": "The central thesis of the treatise is developed in the second chapter.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-03", "german": "widerlegen", "english": "to refute", "gender": null, "example": "Der Forscher konnte die bisherige Theorie durch neue Belege widerlegen.", "exampleEn": "The researcher was able to refute the previous theory with new evidence.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-04", "german": "belegen", "english": "to substantiate / back up", "gender": null, "example": "Jede Behauptung muss durch seriöse Quellen belegt werden.", "exampleEn": "Every claim must be backed up by reliable sources.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-05", "german": "die Schlussfolgerung", "english": "conclusion", "gender": "feminine", "example": "Die Schlussfolgerung ergibt sich logisch aus den zuvor dargelegten Argumenten.", "exampleEn": "The conclusion follows logically from the arguments set out previously.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-06", "german": "abwägen", "english": "to weigh up", "gender": null, "example": "Es gilt, die Vor- und Nachteile sorgfältig abzuwägen, bevor man urteilt.", "exampleEn": "One must carefully weigh up the advantages and disadvantages before passing judgement.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-07", "german": "die Differenzierung", "english": "differentiation", "gender": "feminine", "example": "Eine genaue Differenzierung zwischen beiden Begriffen ist für das Verständnis unerlässlich.", "exampleEn": "A precise differentiation between the two terms is essential for understanding.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-08", "german": "implizieren", "english": "to imply", "gender": null, "example": "Die Ergebnisse implizieren, dass der bisherige Ansatz überdacht werden muss.", "exampleEn": "The results imply that the existing approach needs to be reconsidered.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-09", "german": "der Diskurs", "english": "discourse", "gender": "masculine", "example": "Im wissenschaftlichen Diskurs werden kontroverse Thesen offen diskutiert.", "exampleEn": "In academic discourse, controversial theses are discussed openly.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-10", "german": "die Perspektive", "english": "perspective", "gender": "feminine", "example": "Das Problem sollte aus mehreren Perspektiven betrachtet werden.", "exampleEn": "The problem should be examined from several perspectives.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-11", "german": "kritisch", "english": "critical", "gender": null, "example": "Eine kritische Auseinandersetzung mit den Quellen ist unbedingt erforderlich.", "exampleEn": "A critical engagement with the sources is absolutely necessary.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-12", "german": "plausibel", "english": "plausible", "gender": null, "example": "Die Erklärung klingt plausibel, bedarf jedoch weiterer empirischer Überprüfung.", "exampleEn": "The explanation sounds plausible but requires further empirical verification.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-13", "german": "die Kohärenz", "english": "coherence", "gender": "feminine", "example": "Die Kohärenz des Textes leidet unter dem häufigen Themenwechsel.", "exampleEn": "The coherence of the text suffers from the frequent changes of topic.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-14", "german": "veranschaulichen", "english": "to illustrate", "gender": null, "example": "Das Diagramm veranschaulicht den Zusammenhang zwischen den Variablen anschaulich.", "exampleEn": "The diagram clearly illustrates the relationship between the variables.", "level": "C1", "topic": "academic"},
+    {"id": "c1-ac-15", "german": "die Prämisse", "english": "premise", "gender": "feminine", "example": "Wenn die Prämisse falsch ist, kann die Schlussfolgerung nicht korrekt sein.", "exampleEn": "If the premise is false, the conclusion cannot be correct.", "level": "C1", "topic": "academic"}
+  ]
+}

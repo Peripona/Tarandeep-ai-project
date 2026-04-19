@@ -1,0 +1,20 @@
+{
+  "id": "c2-register",
+  "title": "Formal Register & Style",
+  "level": "C2",
+  "topic": "register",
+  "cards": [
+    {"id": "c2-re-01", "german": "im Hinblick auf", "english": "with regard to", "gender": null, "example": "Im Hinblick auf die aktuellen Entwicklungen ist eine Neubewertung der Strategie erforderlich.", "exampleEn": "With regard to current developments, a reassessment of the strategy is necessary.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-02", "german": "diesbezüglich", "english": "in this regard", "gender": null, "example": "Diesbezüglich bitten wir um eine schriftliche Stellungnahme bis Ende des Monats.", "exampleEn": "In this regard we ask for a written statement by the end of the month.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-03", "german": "infolgedessen", "english": "consequently / as a result", "gender": null, "example": "Die Verhandlungen scheiterten; infolgedessen wurden die Lieferverträge ausgesetzt.", "exampleEn": "The negotiations failed; consequently the supply contracts were suspended.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-04", "german": "nichtsdestotrotz", "english": "nevertheless", "gender": null, "example": "Die Datenlage ist unvollständig; nichtsdestotrotz lassen sich erste Schlüsse ziehen.", "exampleEn": "The data is incomplete; nevertheless some initial conclusions can be drawn.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-05", "german": "gemäß", "english": "in accordance with", "gender": null, "example": "Gemäß den vertraglichen Vereinbarungen ist eine Kündigung erst nach sechs Monaten möglich.", "exampleEn": "In accordance with the contractual agreements, termination is only possible after six months.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-06", "german": "vorbehaltlich", "english": "subject to", "gender": null, "example": "Der Vertrag wird vorbehaltlich der Zustimmung des Aufsichtsrats unterzeichnet.", "exampleEn": "The contract will be signed subject to the approval of the supervisory board.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-07", "german": "die Erörterung", "english": "discussion / deliberation", "gender": "feminine", "example": "Die Erörterung der ethischen Fragen nahm den größten Teil der Konferenz in Anspruch.", "exampleEn": "The deliberation of the ethical questions took up the greater part of the conference.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-08", "german": "die Abhandlung", "english": "treatise / paper", "gender": "feminine", "example": "Die Abhandlung wurde in einem führenden Fachjournal zur Publikation angenommen.", "exampleEn": "The treatise was accepted for publication in a leading specialist journal.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-09", "german": "ausführlich", "english": "detailed / in depth", "gender": null, "example": "Der Bericht behandelt alle relevanten Aspekte ausführlich und in nachvollziehbarer Weise.", "exampleEn": "The report covers all relevant aspects in depth and in a comprehensible manner.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-10", "german": "darlegen", "english": "to set out / expound", "gender": null, "example": "Die Referentin legte ihre Position klar und überzeugend vor dem Ausschuss dar.", "exampleEn": "The speaker set out her position clearly and convincingly before the committee.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-11", "german": "die Stellungnahme", "english": "statement / position", "gender": "feminine", "example": "Die Behörde hat noch keine offizielle Stellungnahme zu dem Vorfall abgegeben.", "exampleEn": "The authority has not yet issued an official statement on the incident.", "level": "C2", "topic": "register"},
+    {"id": "c2-re-12", "german": "angemessen", "english": "appropriate / adequate", "gender": null, "example": "Es ist angemessen, in einem formellen Schreiben einen respektvollen Ton zu wahren.", "exampleEn": "It is appropriate to maintain a respectful tone in a formal letter.", "level": "C2", "topic": "register"}
+  ]
+}

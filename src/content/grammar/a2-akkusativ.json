@@ -1,0 +1,111 @@
+{
+  "id": "a2-akkusativ",
+  "title": "The Accusative Case",
+  "level": "A2",
+  "summary": "The accusative case marks the direct object of a verb — the thing or person directly affected by an action. Only masculine singular articles change form; feminine, neuter, and plural forms are identical to the nominative.",
+  "sections": [
+    {
+      "heading": "Articles in the accusative case",
+      "body": [
+        "In the accusative case, the definite article for masculine nouns changes from der to den, and the indefinite article changes from ein to einen. All other forms — die (feminine), das (neuter), and the plural die — remain the same as in the nominative. The same pattern applies to the negative kein: masculine kein → keinen.",
+        "To identify the direct object, ask 'Wen?' (whom?) for people or 'Was?' (what?) for things. For example: 'Ich kaufe den Apfel.' → 'Was kaufe ich? Den Apfel.' — den signals that Apfel (masculine) is the direct object."
+      ],
+      "examples": [
+        { "de": "Ich kaufe den Apfel.", "en": "I am buying the apple. (masc.)" },
+        { "de": "Er liest die Zeitung.", "en": "He is reading the newspaper. (fem.)" },
+        { "de": "Wir sehen das Kind.", "en": "We see the child. (neut.)" },
+        { "de": "Sie hat keinen Bruder.", "en": "She has no brother. (masc. indef. neg.)" }
+      ],
+      "table": {
+        "headers": ["Gender", "Nominative (subject)", "Accusative (direct object)"],
+        "rows": [
+          { "cells": ["Masculine", "der / ein / kein", "den / einen / keinen"] },
+          { "cells": ["Feminine", "die / eine / keine", "die / eine / keine"] },
+          { "cells": ["Neuter", "das / ein / kein", "das / ein / kein"] },
+          { "cells": ["Plural", "die / – / keine", "die / – / keine"] }
+        ]
+      }
+    },
+    {
+      "heading": "Accusative prepositions",
+      "body": [
+        "Certain prepositions always require the accusative case. The most important ones are: durch (through), für (for), gegen (against / around a time), ohne (without), um (around / at a time). A helpful mnemonic is 'durch für gegen ohne um'.",
+        "After any of these prepositions, masculine articles must change to the accusative form (den / einen). For example: 'für den Mann', 'ohne einen Stift', 'durch den Park'. Feminine and neuter forms look the same as the nominative, but they are still grammatically accusative."
+      ],
+      "examples": [
+        { "de": "Das Geschenk ist für den Vater.", "en": "The present is for the father." },
+        { "de": "Wir gehen durch den Park.", "en": "We are walking through the park." },
+        { "de": "Er ist gegen die Idee.", "en": "He is against the idea." },
+        { "de": "Sie geht ohne einen Regenschirm.", "en": "She goes without an umbrella." },
+        { "de": "Das Auto fährt um die Ecke.", "en": "The car turns around the corner." }
+      ]
+    },
+    {
+      "heading": "Personal pronouns in the accusative",
+      "body": [
+        "Personal pronouns also change in the accusative case. The key changes are: ich → mich, du → dich, er → ihn, sie (she) → sie, es → es, wir → uns, ihr → euch, sie (they) / Sie (formal) → sie / Sie.",
+        "Note that er changes to ihn (parallel to der → den), which is the most important pronoun change to remember."
+      ],
+      "examples": [
+        { "de": "Ich sehe ihn jeden Tag.", "en": "I see him every day." },
+        { "de": "Er liebt sie.", "en": "He loves her." },
+        { "de": "Kannst du mich hören?", "en": "Can you hear me?" },
+        { "de": "Die Lehrerin fragt uns.", "en": "The teacher is asking us." }
+      ],
+      "table": {
+        "headers": ["Nominative", "Accusative"],
+        "rows": [
+          { "cells": ["ich", "mich"] },
+          { "cells": ["du", "dich"] },
+          { "cells": ["er", "ihn"] },
+          { "cells": ["sie (she)", "sie"] },
+          { "cells": ["es", "es"] },
+          { "cells": ["wir", "uns"] },
+          { "cells": ["ihr", "euch"] },
+          { "cells": ["sie / Sie", "sie / Sie"] }
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-ak-1",
+      "type": "fillBlank",
+      "prompt": "Ich suche ___ Schlüssel. (der Schlüssel)",
+      "answer": "den",
+      "alternatives": [],
+      "explanation": "Schlüssel is masculine. As the direct object it takes the accusative form: der → den."
+    },
+    {
+      "id": "a2-ak-2",
+      "type": "multipleChoice",
+      "question": "Which form is correct? \"Das Geschenk ist ___ meine Mutter.\"",
+      "options": ["für", "durch", "ohne", "gegen"],
+      "correctIndex": 0,
+      "explanation": "für (for) is the correct accusative preposition here. Die Mutter is feminine so the article stays die: für meine Mutter."
+    },
+    {
+      "id": "a2-ak-3",
+      "type": "fillBlank",
+      "prompt": "Er kauft ___ neuen Mantel. (ein Mantel – masculine)",
+      "answer": "einen",
+      "alternatives": [],
+      "explanation": "Mantel is masculine. The indefinite article in the accusative is einen."
+    },
+    {
+      "id": "a2-ak-4",
+      "type": "multipleChoice",
+      "question": "\"Ich sehe ___ (er) morgen.\" Which pronoun is correct?",
+      "options": ["er", "ihm", "ihn", "sein"],
+      "correctIndex": 2,
+      "explanation": "The pronoun er changes to ihn in the accusative case (direct object)."
+    },
+    {
+      "id": "a2-ak-5",
+      "type": "wordOrder",
+      "words": ["durch", "Wir", "laufen", "den", "Wald"],
+      "correctOrder": ["Wir", "laufen", "durch", "den", "Wald"],
+      "explanation": "durch takes the accusative: den Wald (masculine). Word order: subject (Wir) – verb (laufen) – prepositional phrase (durch den Wald)."
+    }
+  ]
+}

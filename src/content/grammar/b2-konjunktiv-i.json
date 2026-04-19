@@ -1,0 +1,105 @@
+{
+  "id": "b2-konjunktiv-i",
+  "title": "Konjunktiv I (Reported Speech)",
+  "level": "B2",
+  "summary": "Konjunktiv I is used in formal reported speech to convey what someone said without implying it is true. It is common in journalism, academic writing, and official discourse.",
+  "sections": [
+    {
+      "heading": "Forming Konjunktiv I",
+      "body": [
+        "Konjunktiv I is formed from the infinitive stem. For most verbs, add the endings -e, -est, -e, -en, -et, -en to the stem.",
+        "The verb 'sein' is highly irregular and must be memorised: ich sei, du sei(e)st, er/sie/es sei, wir seien, ihr seiet, sie seien.",
+        "For 'haben': ich habe, du habest, er habe, wir haben, ihr habet, sie haben.",
+        "Note: the ich-form of most regular verbs (e.g. ich gehe, ich komme) is identical to the indicative, which causes ambiguity — see the section on when to use Konjunktiv II instead."
+      ],
+      "examples": [
+        { "de": "Er gehe jeden Tag ins Büro.", "en": "He goes to the office every day. (reported)" },
+        { "de": "Sie sei krank.", "en": "She is ill. (reported)" },
+        { "de": "Das Experiment habe funktioniert.", "en": "The experiment worked. (reported)" }
+      ],
+      "table": {
+        "headers": ["Person", "sein", "haben", "kommen"],
+        "rows": [
+          { "cells": ["ich", "sei", "habe", "komme"] },
+          { "cells": ["du", "sei(e)st", "habest", "kommest"] },
+          { "cells": ["er/sie/es", "sei", "habe", "komme"] },
+          { "cells": ["wir", "seien", "haben", "kommen"] },
+          { "cells": ["ihr", "seiet", "habet", "kommet"] },
+          { "cells": ["sie/Sie", "seien", "haben", "kommen"] }
+        ]
+      }
+    },
+    {
+      "heading": "Using Konjunktiv I in Reported Speech",
+      "body": [
+        "In formal contexts, reported speech is introduced by a verb of saying or reporting (sagen, berichten, erklären, behaupten) followed by a subordinate clause with the verb in Konjunktiv I.",
+        "The conjunction 'dass' may be included (with verb-final order) or omitted (with V2 order and Konjunktiv I marking the indirect speech).",
+        "Past events in reported speech use the perfect-tense Konjunktiv I: auxiliary (habe/sei) in Konjunktiv I + past participle."
+      ],
+      "examples": [
+        { "de": "Er sagt, er sei krank.", "en": "He says he is ill." },
+        { "de": "Sie berichtet, das Experiment habe funktioniert.", "en": "She reports that the experiment worked." },
+        { "de": "Der Minister erklärte, die Lage sei unter Kontrolle.", "en": "The minister declared that the situation was under control." },
+        { "de": "Die Sprecherin teilte mit, dass alle Beteiligten informiert worden seien.", "en": "The spokesperson announced that all parties involved had been informed." }
+      ]
+    },
+    {
+      "heading": "When to Use Konjunktiv II Instead",
+      "body": [
+        "If a Konjunktiv I form is identical to the indicative, the reported-speech signal is lost. In such cases, Konjunktiv II (or the 'würde + infinitive' construction) is used instead to preserve the indirect-speech meaning.",
+        "This problem arises particularly in the 1st person singular and in the 1st/3rd person plural, where Konjunktiv I forms overlap with indicative forms for most verbs.",
+        "Example: 'ich gehe' and 'wir gehen' are the same in both indicative and Konjunktiv I for 'gehen', so reporters write 'ich ginge' or 'ich würde gehen' instead.",
+        "In everyday speech, 'dass'-clauses with indicative are common; Konjunktiv I is primarily a written/formal register feature."
+      ],
+      "examples": [
+        { "de": "Sie sagten, sie kämen morgen. (not: *sie kommen)", "en": "They said they would come tomorrow. (Konjunktiv II used because 'kommen' Konj. I = indicative for wir/sie)" },
+        { "de": "Ich erklärte, ich würde pünktlich erscheinen.", "en": "I explained that I would appear on time." },
+        { "de": "Die Forscher behaupteten, die Ergebnisse seien eindeutig. (sei/seien is unambiguously Konj. I)", "en": "The researchers claimed the results were clear." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-konj1-1",
+      "type": "fillBlank",
+      "prompt": "Der Zeuge sagte, er ___ die Person nicht kennen. (kennen → Konjunktiv I, 3rd sg.)",
+      "answer": "kenne",
+      "explanation": "Konjunktiv I of 'kennen' in the 3rd person singular is 'kenne' (stem 'kenn-' + ending '-e')."
+    },
+    {
+      "id": "b2-konj1-2",
+      "type": "multipleChoice",
+      "question": "Which form correctly completes the reported speech? Der Sprecher erklärte, die Verhandlungen ___ erfolgreich gewesen.",
+      "options": ["sind", "seien", "wären", "werden"],
+      "correctIndex": 1,
+      "explanation": "'seien' is Konjunktiv I of 'sein' (3rd person plural), appropriate for formal reported speech. 'Wären' is Konjunktiv II, used only when Konjunktiv I is ambiguous."
+    },
+    {
+      "id": "b2-konj1-3",
+      "type": "fillBlank",
+      "prompt": "Die Ministerin berichtete, das neue Gesetz ___ nächsten Monat in Kraft. (treten → Konjunktiv I, 3rd sg.)",
+      "answer": "trete",
+      "explanation": "Konjunktiv I of 'treten' in the 3rd person singular is 'trete'."
+    },
+    {
+      "id": "b2-konj1-4",
+      "type": "multipleChoice",
+      "question": "Why would a journalist write 'sie kämen' instead of 'sie kommen' in reported speech?",
+      "options": [
+        "Because 'kommen' has no Konjunktiv I form",
+        "Because the Konjunktiv I form 'kommen' is identical to the indicative, so Konjunktiv II is used to avoid ambiguity",
+        "Because Konjunktiv I is only used in the singular",
+        "Because 'kämen' is actually the indicative past tense"
+      ],
+      "correctIndex": 1,
+      "explanation": "When Konjunktiv I is identical to the indicative (as with 'wir/sie kommen'), Konjunktiv II ('kämen') is substituted to clearly signal reported speech."
+    },
+    {
+      "id": "b2-konj1-5",
+      "type": "wordOrder",
+      "words": ["habe", "Der", "er", "sagte,", "Arzt", "Fieber."],
+      "correctOrder": ["Der", "Arzt", "sagte,", "er", "habe", "Fieber."],
+      "explanation": "In reported speech without 'dass', the verb stays in second position within the reported clause; Konjunktiv I 'habe' signals indirect speech."
+    }
+  ]
+}

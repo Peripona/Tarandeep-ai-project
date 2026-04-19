@@ -1,0 +1,23 @@
+{
+  "id": "a2-shopping",
+  "title": "Shopping",
+  "level": "A2",
+  "topic": "shopping",
+  "cards": [
+    {"id": "a2-sh-01", "german": "kaufen", "english": "to buy", "gender": null, "example": "Ich möchte ein neues Hemd kaufen.", "exampleEn": "I would like to buy a new shirt.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-02", "german": "verkaufen", "english": "to sell", "gender": null, "example": "Er verkauft sein altes Fahrrad.", "exampleEn": "He is selling his old bicycle.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-03", "german": "der Preis", "english": "price", "gender": "masculine", "example": "Der Preis für das Jacket ist zu hoch.", "exampleEn": "The price for the jacket is too high.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-04", "german": "teuer", "english": "expensive", "gender": null, "example": "Diese Schuhe sind sehr teuer.", "exampleEn": "These shoes are very expensive.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-05", "german": "billig", "english": "cheap", "gender": null, "example": "Auf dem Markt ist das Obst billig.", "exampleEn": "At the market the fruit is cheap.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-06", "german": "die Größe", "english": "size", "gender": "feminine", "example": "Welche Größe haben Sie?", "exampleEn": "What size do you take?", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-07", "german": "die Farbe", "english": "colour", "gender": "feminine", "example": "Gibt es das T-Shirt in einer anderen Farbe?", "exampleEn": "Does the T-shirt come in a different colour?", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-08", "german": "anprobieren", "english": "to try on", "gender": null, "example": "Kann ich diese Hose anprobieren?", "exampleEn": "Can I try on these trousers?", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-09", "german": "die Kasse", "english": "checkout / till", "gender": "feminine", "example": "Die Kasse ist dort hinten links.", "exampleEn": "The checkout is over there at the back left.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-10", "german": "bezahlen", "english": "to pay", "gender": null, "example": "Kann ich mit Karte bezahlen?", "exampleEn": "Can I pay by card?", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-11", "german": "das Geschäft", "english": "shop", "gender": "neuter", "example": "Das Geschäft öffnet um neun Uhr.", "exampleEn": "The shop opens at nine o'clock.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-12", "german": "der Markt", "english": "market", "gender": "masculine", "example": "Samstags gehen wir auf den Markt.", "exampleEn": "On Saturdays we go to the market.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-13", "german": "das Angebot", "english": "offer / deal", "gender": "neuter", "example": "Dieses Angebot gilt nur heute.", "exampleEn": "This offer is valid today only.", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-14", "german": "die Rechnung", "english": "bill / receipt", "gender": "feminine", "example": "Können Sie mir bitte die Rechnung geben?", "exampleEn": "Could you please give me the bill?", "level": "A2", "topic": "shopping"},
+    {"id": "a2-sh-15", "german": "zurückgeben", "english": "to return", "gender": null, "example": "Ich möchte diese Jacke zurückgeben.", "exampleEn": "I would like to return this jacket.", "level": "A2", "topic": "shopping"}
+  ]
+}

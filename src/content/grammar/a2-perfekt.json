@@ -1,0 +1,117 @@
+{
+  "id": "a2-perfekt",
+  "title": "The Perfect Tense (Perfekt)",
+  "level": "A2",
+  "summary": "The Perfekt is the most common way to talk about past events in spoken German. It is formed with a conjugated form of haben or sein plus the Partizip II of the main verb.",
+  "sections": [
+    {
+      "heading": "Forming Perfekt with haben",
+      "body": [
+        "Most verbs form the Perfekt with haben. The auxiliary haben is conjugated to match the subject and placed in position 2, while the Partizip II goes to the end of the sentence.",
+        "For regular (weak) verbs, the Partizip II is formed by adding ge- before the stem and -t after it. For example: machen → gemacht, kaufen → gekauft, spielen → gespielt. Many common verbs are irregular (strong verbs) and must be learned individually: schreiben → geschrieben, essen → gegessen, trinken → getrunken, sehen → gesehen, sprechen → gesprochen."
+      ],
+      "examples": [
+        { "de": "Ich habe das Buch gelesen.", "en": "I have read / I read the book." },
+        { "de": "Er hat gestern gearbeitet.", "en": "He worked yesterday." },
+        { "de": "Wir haben Pizza gegessen.", "en": "We ate pizza." },
+        { "de": "Hast du Kaffee getrunken?", "en": "Did you drink coffee?" }
+      ],
+      "table": {
+        "headers": ["Pronoun", "haben (auxiliary)", "Partizip II (example: kaufen)"],
+        "rows": [
+          { "cells": ["ich", "habe", "gekauft"] },
+          { "cells": ["du", "hast", "gekauft"] },
+          { "cells": ["er / sie / es", "hat", "gekauft"] },
+          { "cells": ["wir", "haben", "gekauft"] },
+          { "cells": ["ihr", "habt", "gekauft"] },
+          { "cells": ["sie / Sie", "haben", "gekauft"] }
+        ]
+      }
+    },
+    {
+      "heading": "Forming Perfekt with sein",
+      "body": [
+        "Verbs that express movement from one place to another, or a change of state, typically form the Perfekt with sein instead of haben. These must be memorised. Common examples include: gehen → gegangen, kommen → gekommen, fahren → gefahren, fliegen → geflogen, laufen → gelaufen, schwimmen → geschwommen, reisen → gereist.",
+        "Two especially important verbs that use sein are werden (to become) → geworden and bleiben (to stay) → geblieben. As with haben-Perfekt, the conjugated form of sein takes position 2 and the Partizip II goes to the end."
+      ],
+      "examples": [
+        { "de": "Ich bin nach Berlin gefahren.", "en": "I drove / travelled to Berlin." },
+        { "de": "Sie ist früh aufgestanden.", "en": "She got up early." },
+        { "de": "Wir sind ins Kino gegangen.", "en": "We went to the cinema." },
+        { "de": "Er ist Arzt geworden.", "en": "He became a doctor." },
+        { "de": "Bist du zu Hause geblieben?", "en": "Did you stay at home?" }
+      ],
+      "table": {
+        "headers": ["Infinitiv", "Partizip II", "Auxiliary"],
+        "rows": [
+          { "cells": ["gehen", "gegangen", "sein"] },
+          { "cells": ["kommen", "gekommen", "sein"] },
+          { "cells": ["fahren", "gefahren", "sein"] },
+          { "cells": ["fliegen", "geflogen", "sein"] },
+          { "cells": ["werden", "geworden", "sein"] },
+          { "cells": ["bleiben", "geblieben", "sein"] },
+          { "cells": ["laufen", "gelaufen", "sein"] }
+        ]
+      }
+    },
+    {
+      "heading": "Partizip II of irregular verbs",
+      "body": [
+        "Strong (irregular) verbs often change their stem vowel in the Partizip II and do not follow the ge-...-t pattern. Instead they end in -en: schreiben → geschrieben, trinken → getrunken, sehen → gesehen, sprechen → gesprochen, finden → gefunden, nehmen → genommen.",
+        "Verbs with inseparable prefixes (be-, er-, ver-, ent-, etc.) do not add ge-: besuchen → besucht, erklären → erklärt, verstehen → verstanden. Verbs ending in -ieren also drop the ge-: studieren → studiert, telefonieren → telefoniert."
+      ],
+      "examples": [
+        { "de": "Sie hat den Brief geschrieben.", "en": "She wrote the letter." },
+        { "de": "Er hat seine Schlüssel gefunden.", "en": "He found his keys." },
+        { "de": "Wir haben das Museum besucht.", "en": "We visited the museum." },
+        { "de": "Hast du das verstanden?", "en": "Did you understand that?" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-pf-1",
+      "type": "fillBlank",
+      "prompt": "Ich ___ gestern viel gearbeitet. (haben)",
+      "answer": "habe",
+      "alternatives": [],
+      "explanation": "The auxiliary verb haben is conjugated for ich → habe. Arbeiten is a regular verb that uses haben in the Perfekt."
+    },
+    {
+      "id": "a2-pf-2",
+      "type": "multipleChoice",
+      "question": "Which sentence uses the correct auxiliary verb?",
+      "options": [
+        "Wir haben nach Hause gegangen.",
+        "Wir sind nach Hause gegangen.",
+        "Wir sind nach Hause gegangt.",
+        "Wir haben nach Hause gehen."
+      ],
+      "correctIndex": 1,
+      "explanation": "gehen (to go) is a movement verb and takes sein. The Partizip II is gegangen (irregular strong verb)."
+    },
+    {
+      "id": "a2-pf-3",
+      "type": "fillBlank",
+      "prompt": "Er hat das Buch ___. (lesen)",
+      "answer": "gelesen",
+      "alternatives": [],
+      "explanation": "lesen is a strong (irregular) verb. Its Partizip II is gelesen (stem vowel changes: les- → les-, but the form is irregular: ge-les-en)."
+    },
+    {
+      "id": "a2-pf-4",
+      "type": "multipleChoice",
+      "question": "What is the Partizip II of \"kaufen\"?",
+      "options": ["gekaüft", "kauft", "gekauft", "gekaufen"],
+      "correctIndex": 2,
+      "explanation": "kaufen is a regular weak verb: ge- + kauf + -t = gekauft."
+    },
+    {
+      "id": "a2-pf-5",
+      "type": "wordOrder",
+      "words": ["Sie", "ist", "Berlin", "nach", "geflogen"],
+      "correctOrder": ["Sie", "ist", "nach", "Berlin", "geflogen"],
+      "explanation": "fliegen takes sein. Word order: subject (Sie) – auxiliary (ist) – direction phrase (nach Berlin) – Partizip II (geflogen) at the end."
+    }
+  ]
+}

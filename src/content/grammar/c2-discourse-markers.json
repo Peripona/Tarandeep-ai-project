@@ -1,0 +1,132 @@
+{
+  "id": "c2-discourse-markers",
+  "title": "Discourse Markers & Stylistic Connectors",
+  "level": "C2",
+  "summary": "Advanced connectors and discourse markers are used in sophisticated written and spoken German to structure arguments and express precise logical relationships. Mastery of these distinguishes C2 users from C1 speakers and is essential in academic, journalistic, and literary registers.",
+  "sections": [
+    {
+      "heading": "Concessive and Adversative Connectors",
+      "body": [
+        "These connectors introduce a contrasting or conceding point while maintaining the overall argument.",
+        "'wenngleich' (even though, albeit) — conjunction introducing a subordinate clause, verb-final. More literary than 'obwohl'.",
+        "'obschon' (although, even though) — archaic/elevated synonym of 'obwohl'; found in literary and formal written language.",
+        "'gleichwohl' (nevertheless, nonetheless) — adverb/connector placing verb in second position in the main clause; indicates that a conceded fact does not change the conclusion.",
+        "'nichtsdestotrotz' (nonetheless, notwithstanding) — colourful, emphatic adverb equivalent to 'trotzdem' but more formal or ironic; triggers V2 in the main clause.",
+        "'dennoch' (yet, still, nevertheless) — adverb signalling that the main clause holds despite the concession; triggers V2."
+      ],
+      "examples": [
+        { "de": "Wenngleich die Ergebnisse vielversprechend sind, bedürfen sie weiterer Überprüfung.", "en": "Even though the results are promising, they require further verification." },
+        { "de": "Obschon er jahrelang geforscht hatte, blieben viele Fragen offen.", "en": "Although he had researched for years, many questions remained unanswered." },
+        { "de": "Die Ressourcen waren begrenzt; gleichwohl gelang es dem Team, das Projekt abzuschließen.", "en": "Resources were limited; nevertheless, the team managed to complete the project." },
+        { "de": "Es gab erhebliche Widerstände. Nichtsdestotrotz setzte die Regierung die Reform durch.", "en": "There was considerable resistance. Nonetheless, the government pushed through the reform." },
+        { "de": "Die Kritik war nicht unberechtigt, dennoch hielt er an seiner These fest.", "en": "The criticism was not unjustified; yet he maintained his thesis." }
+      ],
+      "table": {
+        "headers": ["Connector", "Type", "Word order", "Register"],
+        "rows": [
+          { "cells": ["wenngleich", "conjunction", "verb-final in subordinate clause", "formal/literary"] },
+          { "cells": ["obschon", "conjunction", "verb-final in subordinate clause", "archaic/literary"] },
+          { "cells": ["gleichwohl", "adverb/connector", "V2 in main clause", "formal written"] },
+          { "cells": ["nichtsdestotrotz", "adverb/connector", "V2 in main clause", "formal, can be ironic"] },
+          { "cells": ["dennoch", "adverb/connector", "V2 in main clause", "neutral formal"] }
+        ]
+      }
+    },
+    {
+      "heading": "Causal and Consecutive Connectors",
+      "body": [
+        "These connectors express cause-and-effect or logical consequence. They are more precise and formal than simple 'weil' or 'deshalb'.",
+        "'infolgedessen' (as a result, consequently) — adverb; refers back to a cause just stated and introduces the consequence. V2 in main clause.",
+        "'demzufolge' (accordingly, consequently, as a result) — adverb; used when a conclusion logically follows from previously stated facts or rules. V2.",
+        "'mithin' (hence, therefore, consequently) — formal/archaic adverb used in philosophical and legal texts; implies strict logical deduction. V2.",
+        "'folglich' (consequently, therefore, thus) — adverb; neutral formal equivalent of 'also'; signals logical conclusion. V2.",
+        "These differ from 'weil' (introduces subordinate clause with cause) and 'deshalb/daher' (introduces consequence, more colloquial register)."
+      ],
+      "examples": [
+        { "de": "Die Produktionskosten stiegen erheblich; infolgedessen mussten die Preise angehoben werden.", "en": "Production costs rose considerably; as a result, prices had to be raised." },
+        { "de": "Das Gesetz trat in Kraft. Demzufolge sind alle Bürger zur Einhaltung verpflichtet.", "en": "The law came into force. Accordingly, all citizens are obliged to comply." },
+        { "de": "Alle Prämissen sind erfüllt; mithin ist der Schluss zwingend.", "en": "All premises are fulfilled; hence the conclusion is compelling." },
+        { "de": "Die Daten sind unvollständig, folglich können keine verlässlichen Aussagen getroffen werden.", "en": "The data are incomplete; consequently, no reliable statements can be made." }
+      ],
+      "table": {
+        "headers": ["Connector", "Nuance", "vs. simpler equivalent"],
+        "rows": [
+          { "cells": ["infolgedessen", "consequence of a concrete event", "deshalb (more colloquial)"] },
+          { "cells": ["demzufolge", "logical consequence following from rules/stated facts", "daher (neutral)"] },
+          { "cells": ["mithin", "strict logical deduction (philosophical/legal)", "also (very informal)"] },
+          { "cells": ["folglich", "neutral formal logical conclusion", "also / daher"] }
+        ]
+      }
+    },
+    {
+      "heading": "Additive and Contrastive Markers in Academic Writing",
+      "body": [
+        "These markers structure the flow of an academic or formal argument by signalling addition, continuation, or contrast.",
+        "'darüber hinaus' (beyond that, moreover, furthermore) — adds a further point that strengthens or extends the argument. Triggers V2.",
+        "'des Weiteren' (furthermore, in addition) — formal additive marker typical of written prose; equivalent to 'außerdem' but more elevated in register.",
+        "'im Gegensatz dazu' (in contrast to that, as opposed to) — introduces a contrasting point; equivalent to 'im Unterschied dazu'. Common in comparative analysis.",
+        "'einerseits...andererseits' (on the one hand...on the other hand) — paired structure that explicitly presents two sides of an argument. Both clauses typically have V2 word order.",
+        "These markers make the logical architecture of a text visible to the reader and are expected in academic and journalistic writing at C2 level."
+      ],
+      "examples": [
+        { "de": "Die Studie belegt einen signifikanten Rückgang. Darüber hinaus zeigen die Langzeitdaten eine zunehmende Beschleunigung dieses Trends.", "en": "The study demonstrates a significant decline. Moreover, the long-term data show an accelerating trend." },
+        { "de": "Des Weiteren ist zu beachten, dass externe Faktoren die Messung beeinflusst haben könnten.", "en": "Furthermore, it should be noted that external factors may have influenced the measurement." },
+        { "de": "Im Gegensatz dazu weisen die nordeuropäischen Länder deutlich höhere Investitionsquoten auf.", "en": "In contrast, the northern European countries show significantly higher investment rates." },
+        { "de": "Einerseits bietet die Digitalisierung enorme Chancen für die Bildung; andererseits verschärft sie bestehende Ungleichheiten.", "en": "On the one hand, digitalisation offers enormous opportunities for education; on the other hand, it exacerbates existing inequalities." }
+      ],
+      "table": {
+        "headers": ["Marker", "Function", "Position in clause"],
+        "rows": [
+          { "cells": ["darüber hinaus", "additive (strengthening)", "clause-initial → V2"] },
+          { "cells": ["des Weiteren", "additive (continuation)", "clause-initial → V2"] },
+          { "cells": ["im Gegensatz dazu", "contrastive", "clause-initial → V2"] },
+          { "cells": ["einerseits...andererseits", "two-sided presentation", "clause-initial in each clause → V2"] }
+        ]
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-disc-1",
+      "type": "multipleChoice",
+      "question": "Which connector best fills the gap? 'Die Versuche scheiterten wiederholt. ___, gab das Forschungsteam nicht auf.'",
+      "options": ["Infolgedessen", "Dennoch", "Demzufolge", "Des Weiteren"],
+      "correctIndex": 1,
+      "explanation": "'Dennoch' (nevertheless/yet) is an adversative connector signalling that the team persisted despite the failures. 'Infolgedessen' and 'Demzufolge' would signal a consequence of the failures, not a contrast."
+    },
+    {
+      "id": "c2-disc-2",
+      "type": "fillBlank",
+      "prompt": "Die Inflationsrate stieg auf ein Rekordhoch; ___ musste die Zentralbank die Zinsen erhöhen. (causal consequence: 'as a result')",
+      "answer": "infolgedessen",
+      "explanation": "'Infolgedessen' (as a result / consequently) introduces the consequence of the stated fact. It triggers V2: 'infolgedessen musste die Zentralbank...'."
+    },
+    {
+      "id": "c2-disc-3",
+      "type": "multipleChoice",
+      "question": "Choose the sentence that correctly uses 'wenngleich'.",
+      "options": [
+        "Wenngleich der Vorschlag interessant ist, er überzeugte die Mehrheit nicht.",
+        "Wenngleich der Vorschlag interessant ist, überzeugte er die Mehrheit nicht.",
+        "Der Vorschlag ist interessant, wenngleich überzeugte er die Mehrheit nicht.",
+        "Wenngleich ist der Vorschlag interessant, überzeugte er die Mehrheit nicht."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Wenngleich' is a subordinating conjunction: it triggers verb-final order in its clause ('wenngleich der Vorschlag interessant ist'). The main clause that follows has normal V2 order ('überzeugte er die Mehrheit nicht')."
+    },
+    {
+      "id": "c2-disc-4",
+      "type": "fillBlank",
+      "prompt": "___ bietet die Globalisierung wirtschaftliche Vorteile; ___ geht sie mit erheblichen sozialen Risiken einher. ('on the one hand...on the other hand')",
+      "answer": "Einerseits / andererseits",
+      "explanation": "'Einerseits...andererseits' is the standard paired structure for presenting two sides of an argument. Both trigger V2 in their respective clauses."
+    },
+    {
+      "id": "c2-disc-5",
+      "type": "wordOrder",
+      "words": ["hinaus", "Die", "belegen", "Ergebnisse", "Hypothese.", "darüber", "Daten", "die", "zusätzliche"],
+      "correctOrder": ["Die", "zusätzlichen", "Daten", "belegen", "darüber", "hinaus", "die", "Hypothese."],
+      "explanation": "'Darüber hinaus' can be embedded mid-sentence as an adverb: 'Die zusätzlichen Daten belegen darüber hinaus die Hypothese.' Alternatively it can open the sentence triggering V2: 'Darüber hinaus belegen die zusätzlichen Daten die Hypothese.' Both are correct; the embedded version is shown here."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "b1-passive",
+  "title": "The Passive Voice",
+  "level": "B1",
+  "summary": "Forming the passive voice with werden + Partizip II to focus on the action rather than the actor.",
+  "sections": [
+    {
+      "heading": "Present Passive (Präsens Passiv)",
+      "body": [
+        "The passive voice shifts the focus from who does something to what is being done. Instead of 'Der Koch kocht das Essen' (The chef cooks the food), we say 'Das Essen wird gekocht' (The food is being cooked).",
+        "Formula: subject + conjugated form of werden + Partizip II (at the end of the clause).",
+        "The Partizip II of regular verbs is formed with ge- + stem + -t (e.g. ge-mach-t). Irregular verbs have their own forms (e.g. geschrieben, gesehen).",
+        "The object of the active sentence becomes the subject (nominative) in the passive sentence."
+      ],
+      "examples": [
+        { "de": "Das Haus wird gebaut.", "en": "The house is being built." },
+        { "de": "Die Bücher werden verkauft.", "en": "The books are being sold." },
+        { "de": "Deutsch wird in vielen Ländern gesprochen.", "en": "German is spoken in many countries." },
+        { "de": "Die E-Mail wird gerade geschrieben.", "en": "The email is being written right now." }
+      ],
+      "table": {
+        "headers": ["Person", "werden (Präsens)", "Example"],
+        "rows": [
+          { "cells": ["ich", "werde", "Ich werde gefragt."] },
+          { "cells": ["du", "wirst", "Du wirst gefragt."] },
+          { "cells": ["er / sie / es", "wird", "Er wird gefragt."] },
+          { "cells": ["wir", "werden", "Wir werden gefragt."] },
+          { "cells": ["ihr", "werdet", "Ihr werdet gefragt."] },
+          { "cells": ["sie / Sie", "werden", "Sie werden gefragt."] }
+        ]
+      }
+    },
+    {
+      "heading": "Past Passive (Präteritum Passiv)",
+      "body": [
+        "To talk about completed past actions in the passive, use the Präteritum form of werden (wurde) together with the Partizip II.",
+        "Formula: subject + wurde / wurden + Partizip II.",
+        "Note: In the past passive, 'wurden' is used for plural subjects, just as 'wurden' is the Präteritum plural of werden.",
+        "This tense is especially common in written German (newspapers, reports, formal texts)."
+      ],
+      "examples": [
+        { "de": "Das Fenster wurde geöffnet.", "en": "The window was opened." },
+        { "de": "Die Brücke wurde 1890 gebaut.", "en": "The bridge was built in 1890." },
+        { "de": "Die Pakete wurden gestern geliefert.", "en": "The parcels were delivered yesterday." },
+        { "de": "Der Brief wurde nicht geschrieben.", "en": "The letter was not written." }
+      ],
+      "table": {
+        "headers": ["Person", "werden (Präteritum)", "Example"],
+        "rows": [
+          { "cells": ["ich", "wurde", "Ich wurde eingeladen."] },
+          { "cells": ["du", "wurdest", "Du wurdest eingeladen."] },
+          { "cells": ["er / sie / es", "wurde", "Er wurde eingeladen."] },
+          { "cells": ["wir", "wurden", "Wir wurden eingeladen."] },
+          { "cells": ["ihr", "wurdet", "Ihr wurdet eingeladen."] },
+          { "cells": ["sie / Sie", "wurden", "Sie wurden eingeladen."] }
+        ]
+      }
+    },
+    {
+      "heading": "Mentioning the Agent with 'von'",
+      "body": [
+        "In many passive sentences the agent (the doer) is not mentioned at all — that is often the whole point. When you do want to name the agent, use the preposition 'von' + dative.",
+        "Formula: subject + wird/wurde + Partizip II + von + dative agent.",
+        "The preposition 'durch' (through / by means of) is used when the agent is an impersonal force or instrument rather than a person.",
+        "Distinguishing 'von' (agent – person/organisation) from 'durch' (means/instrument) is an important stylistic nuance at B1 level."
+      ],
+      "examples": [
+        { "de": "Das Buch wurde von Schiller geschrieben.", "en": "The book was written by Schiller." },
+        { "de": "Der Kuchen wird von meiner Mutter gebacken.", "en": "The cake is being baked by my mother." },
+        { "de": "Die Stadt wurde durch den Sturm zerstört.", "en": "The city was destroyed by the storm." },
+        { "de": "Das Problem wurde von den Ingenieuren gelöst.", "en": "The problem was solved by the engineers." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-pass-1",
+      "type": "fillBlank",
+      "prompt": "Das Auto ___ jeden Tag gewaschen. (werden, Präsens, es)",
+      "answer": "wird",
+      "explanation": "Present passive, 3rd person singular: 'Das Auto wird gewaschen.'"
+    },
+    {
+      "id": "b1-pass-2",
+      "type": "multipleChoice",
+      "question": "How do you say 'The letter was written' in German?",
+      "options": [
+        "Der Brief wird geschrieben.",
+        "Der Brief wurde geschrieben.",
+        "Der Brief ist geschrieben.",
+        "Der Brief hat geschrieben."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Wurde' is the Präteritum passive of 'werden'. 'Wird' is present; 'ist' and 'hat' do not form the passive."
+    },
+    {
+      "id": "b1-pass-3",
+      "type": "wordOrder",
+      "words": ["von", "Das", "Lied", "gesungen", "der", "wird", "Sängerin"],
+      "correctOrder": ["Das", "Lied", "wird", "von", "der", "Sängerin", "gesungen"],
+      "explanation": "Present passive with agent: subject 'Das Lied' + 'wird' + 'von der Sängerin' (dative) + Partizip II 'gesungen' at the end."
+    },
+    {
+      "id": "b1-pass-4",
+      "type": "fillBlank",
+      "prompt": "Die Fenster ___ gestern geputzt. (werden, Präteritum, plural)",
+      "answer": "wurden",
+      "explanation": "Past passive, plural subject: 'Die Fenster wurden geputzt.' — 'wurden' is the Präteritum plural of 'werden'."
+    },
+    {
+      "id": "b1-pass-5",
+      "type": "multipleChoice",
+      "question": "Which preposition introduces the agent (a person) in a passive sentence?",
+      "options": ["mit", "von", "durch", "für"],
+      "correctIndex": 1,
+      "explanation": "'Von' + dative introduces the agent (the person who performs the action). 'Durch' is used for impersonal means or forces."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "c1-extended-attributes",
+  "title": "Extended Participial Attributes",
+  "level": "C1",
+  "summary": "Extended participial attributes are a hallmark of written German — long adjective phrases placed before a noun instead of a relative clause. They compress complex information into a single noun phrase and are essential for reading and producing formal texts.",
+  "sections": [
+    {
+      "heading": "Participial Attributes: Present and Past Participles as Adjectives",
+      "body": [
+        "Present participles (Partizip I) are formed by adding '-d' to the infinitive: laufend, sprechend, wachsend, folgend. Used as adjectives, they describe an ongoing or simultaneous action and take regular adjective endings.",
+        "Past participles (Partizip II) used as adjectives describe a completed action or a resulting state: geschrieben, beschlossen, veröffentlicht, zerstört. They also take regular adjective endings.",
+        "Both participles agree with the noun they modify in gender, number, and case — just like any other adjective.",
+        "A participial attribute alone (without additional modifiers) is still called a participial attribute; it becomes an 'extended' attribute when it carries additional constituents such as adverbials, objects, or prepositional phrases."
+      ],
+      "examples": [
+        { "de": "das laufende Programm", "en": "the running programme (present participle)" },
+        { "de": "die steigende Nachfrage", "en": "the rising demand (present participle)" },
+        { "de": "das geschriebene Buch", "en": "the written book (past participle)" },
+        { "de": "der beschlossene Plan", "en": "the decided plan (past participle)" },
+        { "de": "die gebaute Brücke", "en": "the built bridge (past participle)" }
+      ]
+    },
+    {
+      "heading": "Extended Participial Attributes",
+      "body": [
+        "An extended participial attribute consists of: article + [modifier(s) + participle] + noun. Everything between the article and the noun modifies that noun.",
+        "The modifiers can include adverbs, prepositional phrases, objects, or agent phrases (von + noun for passive constructions). The participle with its inflectional ending always stands immediately before the noun.",
+        "This structure is extremely common in newspaper language, academic prose, and legal texts. Reading it requires identifying the article, jumping to the noun at the end, and then parsing the participial phrase in between.",
+        "These constructions are the written equivalent of relative clauses. Passive relative clauses become past-participial attributes; active ongoing-action relative clauses become present-participial attributes."
+      ],
+      "examples": [
+        { "de": "das von der Regierung beschlossene Gesetz", "en": "the law passed by the government (= das Gesetz, das von der Regierung beschlossen wurde)" },
+        { "de": "die seit Jahren anhaltende Dürre", "en": "the drought that has persisted for years" },
+        { "de": "ein in mehrere Sprachen übersetztes Buch", "en": "a book translated into several languages" },
+        { "de": "der auf internationaler Ebene anerkannte Wissenschaftler", "en": "the scientist recognised at the international level" },
+        { "de": "die im letzten Jahrzehnt stark gewachsene Bevölkerung", "en": "the population that has grown strongly in the last decade" }
+      ]
+    },
+    {
+      "heading": "Transforming Relative Clauses into Extended Attributes",
+      "body": [
+        "Passive relative clauses (where the noun is the object of an action) are replaced by a past-participial attribute. The agent 'von + noun' is kept before the participle.",
+        "Active relative clauses describing an ongoing state or action are replaced by a present-participial attribute. The subject of the relative clause becomes an agent or is dropped if it is 'man'.",
+        "The transformation requires selecting the correct participle, placing it immediately before the noun with appropriate adjective endings, and positioning all modifiers between the article and the participle.",
+        "Caution: not all relative clauses can be transformed (e.g. those with modal verbs, or where tense differentiation is critical)."
+      ],
+      "examples": [
+        { "de": "Relative: das Dokument, das gestern veröffentlicht wurde → Participial: das gestern veröffentlichte Dokument", "en": "the document published yesterday" },
+        { "de": "Relative: die Kinder, die auf dem Spielplatz spielen → Participial: die auf dem Spielplatz spielenden Kinder", "en": "the children playing in the playground" },
+        { "de": "Relative: der Bericht, der von Experten kritisch bewertet wurde → Participial: der von Experten kritisch bewertete Bericht", "en": "the report critically assessed by experts" },
+        { "de": "Relative: eine Lösung, die alle Beteiligten zufriedenstellt → Participial: eine alle Beteiligten zufriedenstellende Lösung", "en": "a solution that satisfies all parties involved" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-ext-1",
+      "type": "fillBlank",
+      "prompt": "Das ___ (im letzten Jahr / veröffentlichen / Bericht, der Bericht = masculine nominative) liegt nun in zweiter Auflage vor.",
+      "answer": "im letzten Jahr veröffentlichte",
+      "explanation": "Past participle of 'veröffentlichen' = 'veröffentlicht'. As a nominative masculine adjective: '-e' ending → 'veröffentlichte'. Extended attribute: 'das im letzten Jahr veröffentlichte Buch'."
+    },
+    {
+      "id": "c1-ext-2",
+      "type": "multipleChoice",
+      "question": "Which sentence correctly uses an extended participial attribute?",
+      "options": [
+        "Die von dem Ausschuss empfohlene Maßnahme wurde abgelehnt.",
+        "Die von dem Ausschuss empfohlen Maßnahme wurde abgelehnt.",
+        "Die empfohlene von dem Ausschuss Maßnahme wurde abgelehnt.",
+        "Die Maßnahme, von dem Ausschuss empfohlene, wurde abgelehnt."
+      ],
+      "correctIndex": 0,
+      "explanation": "'empfohlene' is the past participle of 'empfehlen' with feminine nominative adjective ending '-e'. The full extended attribute 'die von dem Ausschuss empfohlene Maßnahme' is correctly formed with the participle immediately before the noun."
+    },
+    {
+      "id": "c1-ext-3",
+      "type": "fillBlank",
+      "prompt": "Die auf dem Markt ___ (anbieten, Partizip I, plural nominative) Produkte sind oft günstig.",
+      "answer": "angebotenen",
+      "explanation": "Wait — 'anbieten' forms its Partizip II as 'angeboten'. As a plural nominative adjective: '-en' ending → 'angebotenen'. This is a past participial attribute describing products that are offered. (Partizip I would be 'anbietenden' for active sense, but 'angebotenen' is correct for passive.)"
+    },
+    {
+      "id": "c1-ext-4",
+      "type": "multipleChoice",
+      "question": "Transform into an extended participial attribute: 'Forscher, die intensiv an dem Thema arbeiten' modifying 'Forscher' (masculine plural accusative, e.g. 'Wir unterstützen ...')",
+      "options": [
+        "Wir unterstützen die intensiv an dem Thema arbeitenden Forscher.",
+        "Wir unterstützen die intensiv an dem Thema gearbeiteten Forscher.",
+        "Wir unterstützen die Forscher, intensiv an dem Thema arbeitend.",
+        "Wir unterstützen die an dem Thema intensiv arbeitende Forscher."
+      ],
+      "correctIndex": 0,
+      "explanation": "Active ongoing action → present participle 'arbeitend'. Plural accusative adjective ending '-en' → 'arbeitenden'. All modifiers ('intensiv an dem Thema') precede the participle: 'die intensiv an dem Thema arbeitenden Forscher'."
+    },
+    {
+      "id": "c1-ext-5",
+      "type": "wordOrder",
+      "words": ["seit", "Die", "Monate", "Verhandlungen,", "laufen,", "drei", "sind", "stockend."],
+      "correctOrder": ["Die", "seit", "drei", "Monate", "laufenden", "Verhandlungen", "sind", "stockend."],
+      "explanation": "The relative clause 'die seit drei Monaten laufen' becomes the extended participial attribute 'die seit drei Monaten laufenden Verhandlungen'. Present participle 'laufend' + plural nominative ending '-en' = 'laufenden', placed immediately before 'Verhandlungen'."
+    }
+  ]
+}
