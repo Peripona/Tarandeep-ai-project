@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useCallback } from "react";
 import type { VocabCard } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { AudioButton } from "@/components/ui/AudioButton";
 
 function genderClass(g: VocabCard["gender"]): string {
   if (g === "masculine") return "text-[var(--der)]";
@@ -46,6 +47,7 @@ export function FlashCard({
         animate={{ rotateY: flipped ? 180 : 0 }}
         transition={{ duration: 0.35, ease: "easeInOut" }}
       >
+        {/* Front face */}
         <div
           className={cn(
             "absolute inset-0 flex flex-col justify-center rounded-2xl border-2 border-border bg-card p-8 shadow-lg",
@@ -64,7 +66,12 @@ export function FlashCard({
           <p className="mt-6 text-center text-xs text-muted-foreground">
             Tap or Space to flip
           </p>
+          <div className="mt-4 flex justify-center">
+            <AudioButton text={card.german} />
+          </div>
         </div>
+
+        {/* Back face */}
         <div
           className={cn(
             "absolute inset-0 flex flex-col justify-center rounded-2xl border-2 border-border bg-muted/50 p-8 shadow-lg",
@@ -81,6 +88,9 @@ export function FlashCard({
             {card.example}
           </p>
           <p className="mt-1 text-center text-xs text-muted-foreground">{card.exampleEn}</p>
+          <div className="mt-4 flex justify-center">
+            <AudioButton text={card.example} />
+          </div>
         </div>
       </motion.div>
     </div>
