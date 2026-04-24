@@ -1,5 +1,6 @@
-import type { GrammarLesson, VocabDeck, ReadingPassage } from "@/lib/types";
+import type { GrammarLesson, VocabDeck, ReadingPassage, ConversationLesson } from "@/lib/types";
 import { readingPassages as _readingPassages } from "./reading";
+import { conversationLessons as _conversationLessons } from "./conversations";
 
 // A1 Vocabulary
 import deckBasics from "./vocabulary/a1-basics.json";
@@ -147,4 +148,10 @@ export const readingPassages: ReadingPassage[] = _readingPassages;
 
 export function getPassageById(id: string): ReadingPassage | undefined {
   return readingPassages.find((p) => p.id === id);
+}
+
+export const conversationLessons: ConversationLesson[] = _conversationLessons;
+
+export function getConversationById(id: string): ConversationLesson | undefined {
+  return conversationLessons.find((l) => l.id === id);
 }
