@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { useAppStore, getDueCardIds } from "@/lib/store";
-import { getAllCardIds, grammarLessons, vocabDecks } from "@/content/catalog";
+import { getAllCardIds, grammarLessons, readingPassages, vocabDecks } from "@/content/catalog";
 import { estimateLevel } from "@/lib/levelAssessor";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -13,6 +13,7 @@ import { BookOpen, GraduationCap, LineChart, RotateCcw } from "lucide-react";
 export function HomeDashboard() {
   const vocabProgress = useAppStore((s) => s.vocabProgress);
   const grammarProgress = useAppStore((s) => s.grammarProgress);
+  const readingProgress = useAppStore((s) => s.readingProgress);
   const settings = useAppStore((s) => s.settings);
   const dailyStats = useAppStore((s) => s.dailyStats);
   const streak = useAppStore((s) => s.streak);
@@ -40,8 +41,10 @@ export function HomeDashboard() {
   const { level } = estimateLevel(
     vocabProgress,
     grammarProgress,
+    readingProgress,
     totalCards,
     grammarLessons.length,
+    readingPassages.length,
   );
 
   const cardGoalPct = Math.min(

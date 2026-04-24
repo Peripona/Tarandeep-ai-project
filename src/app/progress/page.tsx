@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { useAppStore, getDueCardIds } from "@/lib/store";
-import { getAllCardIds, grammarLessons } from "@/content/catalog";
+import { getAllCardIds, grammarLessons, readingPassages } from "@/content/catalog";
 import { estimateLevel, levelProgressForAll, LEVEL_ORDER } from "@/lib/levelAssessor";
 import { StatsCard } from "@/components/progress/StatsCard";
 import { LevelBadge } from "@/components/progress/LevelBadge";
@@ -18,6 +18,7 @@ import { BookOpen, Flame, Target, TrendingUp } from "lucide-react";
 export default function ProgressPage() {
   const vocabProgress = useAppStore((s) => s.vocabProgress);
   const grammarProgress = useAppStore((s) => s.grammarProgress);
+  const readingProgress = useAppStore((s) => s.readingProgress);
   const dailyStats = useAppStore((s) => s.dailyStats);
   const streak = useAppStore((s) => s.streak);
   const settings = useAppStore((s) => s.settings);
@@ -48,16 +49,20 @@ export default function ProgressPage() {
   const { level } = estimateLevel(
     vocabProgress,
     grammarProgress,
+    readingProgress,
     allCardIds.length,
     totalLessons,
+    readingPassages.length,
   );
 
   const rings = levelProgressForAll(
     level,
     vocabProgress,
     grammarProgress,
+    readingProgress,
     allCardIds.length,
     totalLessons,
+    readingPassages.length,
   );
 
   const today = new Date().toISOString().slice(0, 10);
