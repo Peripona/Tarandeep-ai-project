@@ -5,6 +5,7 @@ import { persist } from "zustand/middleware";
 import type {
   AppState,
   AppStore,
+  ConversationProgress,
   DailyStats,
   GrammarProgress,
   Rating,
@@ -46,6 +47,7 @@ const initialState: AppState = {
   vocabProgress: {},
   grammarProgress: {},
   readingProgress: {},
+  conversationProgress: {},
   dailyStats: [],
   settings: defaultSettings,
   lastActiveDate: todayISO(),
@@ -157,6 +159,39 @@ export const useAppStore = create<AppStore>()(
         });
       },
 
+      recordConversationComplete: (lessonId: string, score: number, total: number) => {
+        const { conversationProgress, dailyStats, lastActiveDate, streak } = get();
+        const completed = score >= total * 0.7;
+        const prev = conversationProgress[lessonId];
+        const newlyCompleted = completed && !prev?.completed;
+        const nextConversation: ConversationProgress = {
+          ...conversationProgress,
+          [lessonId]: {
+            completed,
+            score,
+            total,
+            lastAttempt: new Date().toISOString(),
+          },
+        };
+        const { lastActive, streak: nextStreak } = bumpStreak(lastActiveDate, streak);
+        const t = todayISO();
+        const stats: DailyStats[] = [...dailyStats];
+        if (newlyCompleted) {
+          const idx = stats.findIndex((d) => d.date === t);
+          if (idx >= 0) {
+            stats[idx] = { ...stats[idx], lessonsCompleted: stats[idx].lessonsCompleted + 1 };
+          } else {
+            stats.push({ date: t, cardsReviewed: 0, lessonsCompleted: 1 });
+          }
+        }
+        set({
+          conversationProgress: nextConversation,
+          dailyStats: stats,
+          lastActiveDate: lastActive,
+          streak: nextStreak,
+        });
+      },
+
       setSettings: (partial: Partial<UserSettings>) => {
         const sanitized = { ...partial };
         if (sanitized.audioRate !== undefined) {
@@ -206,6 +241,7 @@ export const useAppStore = create<AppStore>()(
         vocabProgress: state.vocabProgress,
         grammarProgress: state.grammarProgress,
         readingProgress: state.readingProgress,
+        conversationProgress: state.conversationProgress,
         dailyStats: state.dailyStats,
         settings: state.settings,
         lastActiveDate: state.lastActiveDate,
