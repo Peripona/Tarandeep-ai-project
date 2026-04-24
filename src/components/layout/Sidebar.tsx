@@ -2,14 +2,19 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, GraduationCap, Home, LineChart } from "lucide-react";
+import { BookOpen, GraduationCap, Home, LineChart, BookMarked, MoreHorizontal, X } from "lucide-react";
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 
-const links = [
+const primaryLinks = [
   { href: "/", label: "Home", icon: Home },
   { href: "/vocabulary", label: "Vocabulary", icon: BookOpen },
   { href: "/grammar", label: "Grammar", icon: GraduationCap },
   { href: "/progress", label: "Progress", icon: LineChart },
+];
+
+const moreLinks = [
+  { href: "/reading", label: "Reading", icon: BookMarked },
 ];
 
 export function Sidebar() {
@@ -23,7 +28,7 @@ export function Sidebar() {
         </Link>
       </div>
       <nav className="flex flex-col gap-1 p-3">
-        {links.map(({ href, label, icon: Icon }) => {
+        {[...primaryLinks, ...moreLinks].map(({ href, label, icon: Icon }) => {
           const active = pathname === href || (href !== "/" && pathname.startsWith(href));
           return (
             <Link
@@ -48,25 +53,74 @@ export function Sidebar() {
 
 export function MobileNav() {
   const pathname = usePathname();
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 flex border-t border-border bg-card/95 backdrop-blur md:hidden">
-      {links.map(({ href, label, icon: Icon }) => {
-        const active = pathname === href || (href !== "/" && pathname.startsWith(href));
-        return (
-          <Link
-            key={href}
-            href={href}
-            className={cn(
-              "flex flex-1 flex-col items-center gap-0.5 py-2 text-[10px] font-medium",
-              active ? "text-destructive" : "text-muted-foreground",
-            )}
-          >
-            <Icon className="size-5" />
-            {label}
-          </Link>
-        );
-      })}
-    </nav>
+    <>
+      <nav className="fixed bottom-0 left-0 right-0 z-50 flex border-t border-border bg-card/95 backdrop-blur md:hidden">
+        {primaryLinks.map(({ href, label, icon: Icon }) => {
+          const active = pathname === href || (href !== "/" && pathname.startsWith(href));
+          return (
+            <Link
+              key={href}
+              href={href}
+              className={cn(
+                "flex flex-1 flex-col items-center gap-0.5 py-2 text-[10px] font-medium",
+                active ? "text-destructive" : "text-muted-foreground",
+              )}
+            >
+              <Icon className="size-5" />
+              {label}
+            </Link>
+          );
+        })}
+        <button
+          type="button"
+          onClick={() => setDrawerOpen(true)}
+          className={cn(
+            "flex flex-1 flex-col items-center gap-0.5 py-2 text-[10px] font-medium",
+            moreLinks.some(({ href }) => pathname.startsWith(href))
+              ? "text-destructive"
+              : "text-muted-foreground",
+          )}
+        >
+          <MoreHorizontal className="size-5" />
+          More
+        </button>
+      </nav>
+
+      {drawerOpen && (
+        <>
+          <div
+            className="fixed inset-0 z-50 bg-black/40 md:hidden"
+            onClick={() => setDrawerOpen(false)}
+          />
+          <div className="fixed bottom-0 left-0 right-0 z-50 rounded-t-2xl border-t border-border bg-card p-4 pb-8 md:hidden">
+            <div className="mb-4 flex items-center justify-between">
+              <span className="font-semibold">More</span>
+              <button type="button" onClick={() => setDrawerOpen(false)} aria-label="Close">
+                <X className="size-5 text-muted-foreground" />
+              </button>
+            </div>
+            {moreLinks.map(({ href, label, icon: Icon }) => (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setDrawerOpen(false)}
+                className={cn(
+                  "flex items-center gap-3 rounded-md px-3 py-3 text-sm font-medium transition-colors",
+                  pathname.startsWith(href)
+                    ? "bg-accent text-accent-foreground"
+                    : "text-muted-foreground hover:bg-muted hover:text-foreground",
+                )}
+              >
+                <Icon className="size-5" />
+                {label}
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
+    </>
   );
 }
