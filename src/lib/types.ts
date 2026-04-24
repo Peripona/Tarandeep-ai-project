@@ -111,6 +111,33 @@ export interface ReadingProgress {
   [passageId: string]: ContentProgress;
 }
 
+export interface ConversationLine {
+  speaker: "A" | "B";
+  name: string;
+  line: string;
+  lineEn: string;
+}
+
+export interface ConversationPhrase {
+  german: string;
+  english: string;
+  usage: string;
+}
+
+export interface ConversationLesson {
+  id: string;
+  title: string;
+  situation: string;
+  level: CEFRLevel;
+  dialogue: ConversationLine[];
+  phrases: ConversationPhrase[];
+  exercises: (MultipleChoiceExercise | FillBlankExercise)[];
+}
+
+export interface ConversationProgress {
+  [lessonId: string]: ContentProgress;
+}
+
 export interface ReadingPassage {
   id: string;
   title: string;
@@ -141,6 +168,7 @@ export interface AppState {
   vocabProgress: VocabProgress;
   grammarProgress: GrammarProgress;
   readingProgress: ReadingProgress;
+  conversationProgress: ConversationProgress;
   dailyStats: DailyStats[];
   settings: UserSettings;
   lastActiveDate: string;
@@ -151,6 +179,7 @@ export interface AppActions {
   recordCardReview: (cardId: string, rating: Rating) => void;
   recordLessonComplete: (lessonId: string, score: number, total: number) => void;
   recordReadingComplete: (passageId: string, score: number, total: number) => void;
+  recordConversationComplete: (lessonId: string, score: number, total: number) => void;
   setSettings: (partial: Partial<UserSettings>) => void;
   importState: (data: Partial<AppState>) => void;
   resetProgress: () => void;
