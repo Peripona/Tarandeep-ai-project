@@ -100,6 +100,28 @@ export interface GrammarProgress {
   };
 }
 
+export interface ContentProgress {
+  completed: boolean;
+  score: number;
+  total: number;
+  lastAttempt: string;
+}
+
+export interface ReadingProgress {
+  [passageId: string]: ContentProgress;
+}
+
+export interface ReadingPassage {
+  id: string;
+  title: string;
+  level: CEFRLevel;
+  topic: string;
+  text: string;
+  textEn: string;
+  tooltips: Record<string, string>;
+  exercises: (MultipleChoiceExercise | FillBlankExercise)[];
+}
+
 export interface DailyStats {
   date: string;
   cardsReviewed: number;
@@ -118,6 +140,7 @@ export interface UserSettings {
 export interface AppState {
   vocabProgress: VocabProgress;
   grammarProgress: GrammarProgress;
+  readingProgress: ReadingProgress;
   dailyStats: DailyStats[];
   settings: UserSettings;
   lastActiveDate: string;
@@ -127,6 +150,7 @@ export interface AppState {
 export interface AppActions {
   recordCardReview: (cardId: string, rating: Rating) => void;
   recordLessonComplete: (lessonId: string, score: number, total: number) => void;
+  recordReadingComplete: (passageId: string, score: number, total: number) => void;
   setSettings: (partial: Partial<UserSettings>) => void;
   importState: (data: Partial<AppState>) => void;
   resetProgress: () => void;
