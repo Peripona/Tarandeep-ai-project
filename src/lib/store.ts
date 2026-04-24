@@ -8,6 +8,7 @@ import type {
   DailyStats,
   GrammarProgress,
   Rating,
+  ReadingProgress,
   UserSettings,
   VocabProgress,
 } from "./types";
@@ -44,6 +45,7 @@ const defaultSettings: UserSettings = {
 const initialState: AppState = {
   vocabProgress: {},
   grammarProgress: {},
+  readingProgress: {},
   dailyStats: [],
   settings: defaultSettings,
   lastActiveDate: todayISO(),
@@ -122,6 +124,39 @@ export const useAppStore = create<AppStore>()(
         });
       },
 
+      recordReadingComplete: (passageId: string, score: number, total: number) => {
+        const { readingProgress, dailyStats, lastActiveDate, streak } = get();
+        const completed = score >= total * 0.7;
+        const prev = readingProgress[passageId];
+        const newlyCompleted = completed && !prev?.completed;
+        const nextReading: ReadingProgress = {
+          ...readingProgress,
+          [passageId]: {
+            completed,
+            score,
+            total,
+            lastAttempt: new Date().toISOString(),
+          },
+        };
+        const { lastActive, streak: nextStreak } = bumpStreak(lastActiveDate, streak);
+        const t = todayISO();
+        const stats: DailyStats[] = [...dailyStats];
+        if (newlyCompleted) {
+          const idx = stats.findIndex((d) => d.date === t);
+          if (idx >= 0) {
+            stats[idx] = { ...stats[idx], lessonsCompleted: stats[idx].lessonsCompleted + 1 };
+          } else {
+            stats.push({ date: t, cardsReviewed: 0, lessonsCompleted: 1 });
+          }
+        }
+        set({
+          readingProgress: nextReading,
+          dailyStats: stats,
+          lastActiveDate: lastActive,
+          streak: nextStreak,
+        });
+      },
+
       setSettings: (partial: Partial<UserSettings>) => {
         const sanitized = { ...partial };
         if (sanitized.audioRate !== undefined) {
@@ -170,6 +205,7 @@ export const useAppStore = create<AppStore>()(
       partialize: (state) => ({
         vocabProgress: state.vocabProgress,
         grammarProgress: state.grammarProgress,
+        readingProgress: state.readingProgress,
         dailyStats: state.dailyStats,
         settings: state.settings,
         lastActiveDate: state.lastActiveDate,
