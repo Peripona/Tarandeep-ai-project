@@ -12,7 +12,7 @@ function makeStore() {
     lastActiveDate: new Date().toISOString().slice(0, 10),
     streak: 0,
     recordReadingComplete: (passageId: string, score: number, total: number) => {
-      const { readingProgress, dailyStats, lastActiveDate, streak } = getState();
+      const { readingProgress, dailyStats } = getState();
       const completed = score >= total * 0.7;
       const prev = readingProgress[passageId];
       const newlyCompleted = completed && !prev?.completed;
