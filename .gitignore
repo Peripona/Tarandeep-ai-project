@@ -1,17 +1,36 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-dist/
-build/
-.eggs/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
 
-# Virtual environments
-.venv/
-venv/
-env/
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production / build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # IDE
 .idea/
@@ -24,26 +43,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Environment variables
-.env
-.env.local
+# Vercel
+.vercel
 
-# Jupyter
-.ipynb_checkpoints/
+# Turbo
+.turbo
 
-# Data
-*.csv
-*.parquet
-*.h5
-*.pkl
-data/
-
-# Models
-*.pt
-*.pth
-*.onnx
-models/
-
-# Next.js
-.next/
-tsconfig.tsbuildinfo
+# Claude / Superpowers transient state
+.superpowers/**/state/
+.claude/local/
