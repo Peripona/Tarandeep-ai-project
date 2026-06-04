@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useAppStore } from "@/lib/store";
 import { estimateLevel } from "@/lib/levelAssessor";
-import { getAllCardIds, grammarLessons, readingPassages } from "@/content/catalog";
+import { getAllCardIds, grammarLessons, readingPassages, conversationLessons } from "@/content/catalog";
 
 export function Header() {
   const { theme, setTheme, resolvedTheme } = useTheme();
@@ -18,6 +18,7 @@ export function Header() {
   const vocabProgress = useAppStore((s) => s.vocabProgress);
   const grammarProgress = useAppStore((s) => s.grammarProgress);
   const readingProgress = useAppStore((s) => s.readingProgress);
+  const conversationProgress = useAppStore((s) => s.conversationProgress);
 
   useEffect(() => {
     setMounted(true);
@@ -28,9 +29,11 @@ export function Header() {
     vocabProgress,
     grammarProgress,
     readingProgress,
+    conversationProgress,
     totalCards,
     grammarLessons.length,
     readingPassages.length,
+    conversationLessons.length,
   );
 
   const dark = mounted && (resolvedTheme === "dark" || theme === "dark");

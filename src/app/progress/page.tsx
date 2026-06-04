@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { useAppStore, getDueCardIds } from "@/lib/store";
-import { getAllCardIds, grammarLessons, readingPassages } from "@/content/catalog";
+import { getAllCardIds, grammarLessons, readingPassages, conversationLessons } from "@/content/catalog";
 import { estimateLevel, levelProgressForAll, LEVEL_ORDER } from "@/lib/levelAssessor";
 import { StatsCard } from "@/components/progress/StatsCard";
 import { LevelBadge } from "@/components/progress/LevelBadge";
@@ -19,6 +19,7 @@ export default function ProgressPage() {
   const vocabProgress = useAppStore((s) => s.vocabProgress);
   const grammarProgress = useAppStore((s) => s.grammarProgress);
   const readingProgress = useAppStore((s) => s.readingProgress);
+  const conversationProgress = useAppStore((s) => s.conversationProgress);
   const dailyStats = useAppStore((s) => s.dailyStats);
   const streak = useAppStore((s) => s.streak);
   const settings = useAppStore((s) => s.settings);
@@ -50,9 +51,11 @@ export default function ProgressPage() {
     vocabProgress,
     grammarProgress,
     readingProgress,
+    conversationProgress,
     allCardIds.length,
     totalLessons,
     readingPassages.length,
+    conversationLessons.length,
   );
 
   const rings = levelProgressForAll(
@@ -60,9 +63,11 @@ export default function ProgressPage() {
     vocabProgress,
     grammarProgress,
     readingProgress,
+    conversationProgress,
     allCardIds.length,
     totalLessons,
     readingPassages.length,
+    conversationLessons.length,
   );
 
   const today = new Date().toISOString().slice(0, 10);

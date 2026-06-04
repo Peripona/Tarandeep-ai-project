@@ -1,4 +1,4 @@
-import type { CEFRLevel, GrammarProgress, ReadingProgress, VocabProgress } from "./types";
+import type { CEFRLevel, ConversationProgress, GrammarProgress, ReadingProgress, VocabProgress } from "./types";
 import { isDue } from "./srs";
 
 export const LEVEL_ORDER: CEFRLevel[] = ["A1", "A2", "B1", "B2", "C1", "C2"];
@@ -7,9 +7,11 @@ export function estimateLevel(
   vocabProgress: VocabProgress,
   grammarProgress: GrammarProgress,
   readingProgress: ReadingProgress,
+  conversationProgress: ConversationProgress,
   totalCards: number,
   totalLessons: number,
   totalPassages: number,
+  totalConversations: number,
 ): { level: CEFRLevel; percentToNext: number } {
   const masteredCards = Object.values(vocabProgress).filter(
     (s) => s.repetitions >= 2 && !isDue(s),
@@ -22,8 +24,11 @@ export function estimateLevel(
   const completedPassages = Object.values(readingProgress).filter((r) => r.completed).length;
   const readingScore = totalPassages > 0 ? completedPassages / totalPassages : 0;
 
-  // Weights: vocab 40%, grammar 30%, reading 20%, conversation placeholder 10% (defaults to 0)
-  const combined = (vocabScore * 0.4 + grammarScore * 0.3 + readingScore * 0.2) * 100;
+  const completedConversations = Object.values(conversationProgress).filter((c) => c.completed).length;
+  const conversationScore = totalConversations > 0 ? completedConversations / totalConversations : 0;
+
+  // Weights: vocab 40%, grammar 30%, reading 20%, conversation 10%
+  const combined = (vocabScore * 0.4 + grammarScore * 0.3 + readingScore * 0.2 + conversationScore * 0.1) * 100;
 
   let idx = 0;
   if (combined >= 85) idx = 5;
@@ -51,17 +56,21 @@ export function levelProgressForAll(
   vocabProgress: VocabProgress,
   grammarProgress: GrammarProgress,
   readingProgress: ReadingProgress,
+  conversationProgress: ConversationProgress,
   totalCards: number,
   totalLessons: number,
   totalPassages: number,
+  totalConversations: number,
 ): Record<CEFRLevel, number> {
   const { percentToNext } = estimateLevel(
     vocabProgress,
     grammarProgress,
     readingProgress,
+    conversationProgress,
     totalCards,
     totalLessons,
     totalPassages,
+    totalConversations,
   );
   const idx = LEVEL_ORDER.indexOf(currentLevel);
   const out = {} as Record<CEFRLevel, number>;

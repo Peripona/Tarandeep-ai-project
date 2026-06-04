@@ -1,14 +1,15 @@
 import { describe, it, expect } from "vitest";
 import { estimateLevel } from "@/lib/levelAssessor";
-import type { VocabProgress, GrammarProgress, ReadingProgress } from "@/lib/types";
+import type { VocabProgress, GrammarProgress, ReadingProgress, ConversationProgress } from "@/lib/types";
 
 const emptyVocab: VocabProgress = {};
 const emptyGrammar: GrammarProgress = {};
 const emptyReading: ReadingProgress = {};
+const emptyConversation: ConversationProgress = {};
 
 describe("estimateLevel", () => {
   it("returns A1 when all progress is empty", () => {
-    const { level } = estimateLevel(emptyVocab, emptyGrammar, emptyReading, 100, 20, 12);
+    const { level } = estimateLevel(emptyVocab, emptyGrammar, emptyReading, emptyConversation, 100, 20, 12, 12);
     expect(level).toBe("A1");
   });
 
@@ -20,12 +21,12 @@ describe("estimateLevel", () => {
         { completed: true, score: 5, total: 5, lastAttempt: "2026-01-01T00:00:00.000Z" },
       ])
     );
-    const { level } = estimateLevel(emptyVocab, emptyGrammar, fullReading, 100, 20, 12);
+    const { level } = estimateLevel(emptyVocab, emptyGrammar, fullReading, emptyConversation, 100, 20, 12, 12);
     expect(level).toBe("A2");
   });
 
   it("percentToNext is finite", () => {
-    const { percentToNext } = estimateLevel(emptyVocab, emptyGrammar, emptyReading, 0, 0, 0);
+    const { percentToNext } = estimateLevel(emptyVocab, emptyGrammar, emptyReading, emptyConversation, 0, 0, 0, 0);
     expect(Number.isFinite(percentToNext)).toBe(true);
   });
 });

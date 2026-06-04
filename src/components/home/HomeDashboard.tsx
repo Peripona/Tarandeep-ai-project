@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { useAppStore, getDueCardIds } from "@/lib/store";
-import { getAllCardIds, grammarLessons, readingPassages, vocabDecks } from "@/content/catalog";
+import { getAllCardIds, grammarLessons, readingPassages, vocabDecks, conversationLessons } from "@/content/catalog";
 import { estimateLevel } from "@/lib/levelAssessor";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -14,6 +14,7 @@ export function HomeDashboard() {
   const vocabProgress = useAppStore((s) => s.vocabProgress);
   const grammarProgress = useAppStore((s) => s.grammarProgress);
   const readingProgress = useAppStore((s) => s.readingProgress);
+  const conversationProgress = useAppStore((s) => s.conversationProgress);
   const settings = useAppStore((s) => s.settings);
   const dailyStats = useAppStore((s) => s.dailyStats);
   const streak = useAppStore((s) => s.streak);
@@ -42,9 +43,11 @@ export function HomeDashboard() {
     vocabProgress,
     grammarProgress,
     readingProgress,
+    conversationProgress,
     totalCards,
     grammarLessons.length,
     readingPassages.length,
+    conversationLessons.length,
   );
 
   const cardGoalPct = Math.min(
